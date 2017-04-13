@@ -1,0 +1,58 @@
+<resources>
+	<properties>
+    	<property id="DF_Title" type="string">Rolling Field</property>
+	    <property id="Field_Time_Label" type="string">Time</property>	    
+	    <property id="Field_Time_Duration" type="number">2</property>
+	    <property id="Field_Timer_Label" type="string">Timer</property>	    
+	    <property id="Field_Timer_Duration" type="number">2</property>
+	    <property id="Field_Distance_Label" type="string">Distance</property>
+	    <property id="Field_Distance_Duration" type="number">2</property>
+	    <property id="Field_TimeOfDay_Label" type="string">Time of Day</property>
+	    <property id="Field_TimeOfDay_Duration" type="number">2</property>
+	</properties>
+
+	<strings>
+    	<string id="DF_Title_Title">Data Field Title</string>
+	    <string id="Field_Time_Label_Title">Time</string>
+	    <string id="Field_Time_Duration_Title">Time field duration</string>
+	    <string id="Field_Timer_Label_Title">Timer</string>
+	    <string id="Field_Timer_Duration_Title">Timer field duration</string>
+	    <string id="Field_Distance_Label_Title">Distance</string>
+	    <string id="Field_Distance_Duration_Title">Distance field duration</string>
+	    <string id="Field_TimeOfDay_Label_Title">Time of Day</string>
+	    <string id="Field_TimeOfDay_Duration_Title">Time of Day duration</string>
+	</strings>
+	
+	<settings>
+	    <setting propertyKey="@Properties.DF_Title" title="@Strings.DF_Title_Title">
+	        <settingConfig type="alphaNumeric" readonly="true" />
+	    </setting>
+
+	    <setting propertyKey="@Properties.Field_Time_Label" title="@Strings.Field_Time_Label_Title">
+	        <settingConfig type="alphaNumeric" readonly="true" />
+	    </setting>
+	    <setting propertyKey="@Properties.Field_Time_Duration" title="@Strings.Field_Time_Duration_Title">
+	        <settingConfig type="numeric" min="0" max="10" />
+	    </setting>
+	    <setting propertyKey="@Properties.Field_Timer_Label" title="@Strings.Field_Timer_Label_Title">
+	        <settingConfig type="alphaNumeric" readonly="true" />
+	    </setting>
+	    <setting propertyKey="@Properties.Field_Timer_Duration" title="@Strings.Field_Timer_Duration_Title">
+	        <settingConfig type="numeric" min="0" max="10" />
+	    </setting>
+
+	    <setting propertyKey="@Properties.Field_Distance_Label" title="@Strings.Field_Distance_Label_Title">
+	        <settingConfig type="alphaNumeric" readonly="true" />
+	    </setting>
+	    <setting propertyKey="@Properties.Field_Distance_Duration" title="@Strings.Field_Distance_Duration_Title">
+	        <settingConfig type="numeric" min="0" max="10" />
+	    </setting>
+	    <setting propertyKey="@Properties.Field_TimeOfDay_Label" title="@Strings.Field_TimeOfDay_Label_Title">
+	        <settingConfig type="alphaNumeric" readonly="true" />
+	    </setting>
+	    <setting propertyKey="@Properties.Field_TimeOfDay_Duration" title="@Strings.Field_TimeOfDay_Duration_Title">
+	        <settingConfig type="numeric" min="0" max="10" />
+	    </setting>
+
+	</settings>
+</resources>
