@@ -22,15 +22,18 @@ class DF_RollingFieldView extends Ui.DataField
 
 	var CustomFont_Value = null;
 
+    var Label_Field = null;
+
     var Value_Field = null;
 	var Value_Field_Font_Size = null;
 
+    var Unit_Field = null;
+    
 	var CustomFont_Value_Small = null;    
 	var CustomFont_Value_Medium = null;
 	var CustomFont_Value_Large = null;
 	    
     function initialize(Args)
-    //function initialize(Label_Value, Duration_Value,T,V)
     {
 
         DataField.initialize();
@@ -78,25 +81,77 @@ class DF_RollingFieldView extends Ui.DataField
     function onLayout(dc)
     {
 
-    //! The given info object contains all the current workout
-    //! information. Calculate a value and return it in this method.
-       View.setLayout(Rez.Layouts.MainLayout(dc));
-       
-       //CustomFont_Value = Ui.loadResource(Rez.Fonts.Font_Value);
+    	System.println("DC Height  = " + dc.getHeight());
+      	System.println("DC Width  = " + dc.getWidth());
 
-       Value_Field = View.findDrawableById("Value");
 
-	   // Edge 1000 -> problem with custom font rotation !!!
+    	//! The given info object contains all the current workout
+    	//! information. Calculate a value and return it in this method.
+	   	View.setLayout(Rez.Layouts.MainLayout(dc));
        
-       //if (Device_Type.equals("edge_520") or Device_Type.equals("edge_820") or Device_Type.equals("edge_1000"))
-       if (Device_Type.equals("edge_520") or Device_Type.equals("edge_820"))
-       {
+       	//CustomFont_Value = Ui.loadResource(Rez.Fonts.Font_Value);
+
+		// Get Fields
+
+       	Label_Field = View.findDrawableById("Label");
+       	Value_Field = View.findDrawableById("Value");
+       	Unit_Field = View.findDrawableById("Unit");
+
+		// Manage Label Field
+
+		var Label_Field_x = dc.getWidth() /2;
+		var Label_Field_y = 1;
+		var Label_Field_Font = Gfx.FONT_TINY;
+
+		System.println("Label Field - Font Height = " + Gfx.getFontHeight(Label_Field_Font));
+       	
+      	Label_Field.setFont(Label_Field_Font);
+       	Label_Field.setJustification(Gfx.TEXT_JUSTIFY_CENTER);
+       	Label_Field.setLocation(Label_Field_x,Label_Field_y);
+
+		// Manage Value Field
+
+		//
+		// Set Font Size for Field value
+		//
+		//		- Large except Timer = Medium
+		//
+
+	   	// Edge 1000 -> problem with custom font rotation !!!
+
+		var Value_Field_Font = Gfx.FONT_LARGE;
+       
+       	//if (Device_Type.equals("edge_520") or Device_Type.equals("edge_820") or Device_Type.equals("edge_1000"))
+       	//if (Device_Type.equals("edge_520") or Device_Type.equals("edge_820") or Device_Type.equals("edge_1030"))
+		if (Device_Type.equals("edge_1000") == false)
+       	{
        		CustomFont_Value_Small = Ui.loadResource(Rez.Fonts.Font_Value_Small);
 	   		CustomFont_Value_Medium = Ui.loadResource(Rez.Fonts.Font_Value_Medium);
 		    CustomFont_Value_Large = Ui.loadResource(Rez.Fonts.Font_Value_Large);
-	   		Value_Field.setFont(CustomFont_Value_Large);
-       }
+			Value_Field_Font = CustomFont_Value_Large;
+       	}
 
+   		Value_Field.setFont(Value_Field_Font);
+		System.println("Value Field - Font Height = " + Gfx.getFontHeight(Value_Field_Font));
+
+       	
+		var Value_Field_x = dc.getWidth() / 2;
+		var Value_Field_y = Gfx.getFontHeight(Label_Field_Font) + (dc.getHeight() - Gfx.getFontHeight(Label_Field_Font)) / 2 - Gfx.getFontHeight(Value_Field_Font) /2;
+		
+		Value_Field.setJustification(Gfx.TEXT_JUSTIFY_CENTER);
+		Value_Field.setLocation(Value_Field_x,Value_Field_y);
+
+		// Manage Unit Field
+
+		var Unit_Field_x = dc.getWidth() - 5;
+		var Unit_Field_y = Value_Field_y + Gfx.getFontHeight(Value_Field_Font) / 2;
+		var Unit_Field_Font = Gfx.FONT_XTINY;
+
+		System.println("Unit Field - Font Height = " + Gfx.getFontHeight(Unit_Field_Font));
+
+       	Unit_Field.setFont(Unit_Field_Font);
+       	Unit_Field.setJustification(Gfx.TEXT_JUSTIFY_RIGHT);
+       	Unit_Field.setLocation(Unit_Field_x,Unit_Field_y);
     }
     
     
@@ -207,7 +262,6 @@ class DF_RollingFieldView extends Ui.DataField
   	    var Value_Picked = "";
   	    var Value_Unit_Picked = "";
   	      	    
-   	    //Label.setText(Loop_Value[Loop_Index].String);
    	    Label.setText(Field);
 
 		if (Field.equals(Ui.loadResource(Rez.Strings.Field_Time_Label_Title)))
@@ -259,7 +313,8 @@ class DF_RollingFieldView extends Ui.DataField
 		// Edge 1000 -> problem with custom font rotation !!!
 
         //if (Device_Type.equals("edge_520") or Device_Type.equals("edge_820") or Device_Type.equals("edge_1000"))
-        if (Device_Type.equals("edge_520") or Device_Type.equals("edge_820"))
+        //if (Device_Type.equals("edge_520") or Device_Type.equals("edge_820"))
+		if (Device_Type.equals("edge_1000") == false)
         {
         
 	        if (Value_Field_Font_Size.equals("Small"))

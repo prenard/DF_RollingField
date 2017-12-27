@@ -1,10 +1,25 @@
+// History:
+//
+// 2017-12-27: Version 1.10
+//
+//		* CIQ 2.41 to support Edge 1030
+//      * 1030 support
+//
+
 using Toybox.Application as App;
+using Toybox.WatchUi as Ui;
 
 class DF_RollingFieldApp extends App.AppBase {
+
+	var Garmin_Device_Type;
 
     function initialize()
     {
         AppBase.initialize();
+
+        Garmin_Device_Type = Ui.loadResource(Rez.Strings.Device);
+        System.println("Device Type = " + Garmin_Device_Type);
+
     }
 
     //! onStart() is called on application start up

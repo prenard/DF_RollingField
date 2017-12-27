@@ -1,0 +1,24 @@
+With this Data Field, you can display several data in the same display field.
+
+You can configure the duration of each data display in seconds (0 = no display of the selected data).
+
+Release History:
+
+- V1.10 - 2017-12-27
+* Edge 1030 support
+- V1.07 - 2016-09-28
+* Fix digit orientation (Garmin IQ non fixed bug with custom fonts on Edge 1000) on the Edge 1000 device, using system fonts
+- V1.06 - 2016-09-06
+* Add Edge 820 support
+- V1.05 - 2016-09-03
+* Modify fonts sizes
+- V1.04 - 2016-09-03
+* Modify fonts sizes
+- V1.03 - 2016-06-03
+* Modify fonts sizes
+- V1.02 - 2016-06-01
+* Adjust Km / Miles conversion
+- V1.01 - 2016-06-01
+* Display updates
+- V1.00 - 2016-05-20
+* Initial version
