@@ -9,17 +9,21 @@
 using Toybox.Application as App;
 using Toybox.WatchUi as Ui;
 
-class DF_RollingFieldApp extends App.AppBase {
+class DF_RollingFieldApp extends App.AppBase
+{
 
-	var Garmin_Device_Type;
+	//var Garmin_Device_Type;
 
     function initialize()
     {
         AppBase.initialize();
 
-        Garmin_Device_Type = Ui.loadResource(Rez.Strings.Device);
-        System.println("Device Type = " + Garmin_Device_Type);
+        //Garmin_Device_Type = Ui.loadResource(Rez.Strings.Device);
+        System.println("Device Type = " + Ui.loadResource(Rez.Strings.Device));
 
+		System.println("Battery Level = " + System.getSystemStats().battery);
+		System.println("Total Memory = " + System.getSystemStats().totalMemory);
+		System.println("Used Memory = " + System.getSystemStats().usedMemory);
     }
 
     //! onStart() is called on application start up
@@ -35,9 +39,9 @@ class DF_RollingFieldApp extends App.AppBase {
     //! Return the initial view of your application here
     function getInitialView()
     {
-		var Args = new [4];
+		var Args = new [3];
 
-		var T, V;
+		// var T;
 		
 		var Label_Value = new [10];
 		var Duration_Value = new [10];
@@ -61,21 +65,15 @@ class DF_RollingFieldApp extends App.AppBase {
 		Label_Value[3] = getProperty("Field_TimeOfDay_Label");
 		Duration_Value[3] = getProperty("Field_TimeOfDay_Duration");
 				
-		T  = getProperty("DF_Title");
-		V  = getProperty("App_Version");
+		//T  = getProperty("DF_Title");
 
 		Args[0] = Label_Value;
 		Args[1] = Duration_Value;
-		Args[2] = T;
-		Args[3] = V;
 		
 		//System.println(D_Time + " / " + D_Distance);
 
 		//return [ new DF_RollingFieldView(Label_Value, Duration_Value, T, V) ];
 		return [ new DF_RollingFieldView(Args) ];
-		
-		//return [ new DF_RollingFieldView(D_Time,L_Time,D_Timer,L_Timer,D_Distance,L_Distance,D_TimeOfDay,L_TimeOfDay,T,V) ];
-        // return [ new DF_RollingFieldView(D_Time,L_Time,D_Timer,L_Timer,D_Distance,L_Distance,D_TimeOfDay,L_TimeOfDay,T,V) ];
+	
     }
-
 }

@@ -3,11 +3,6 @@ using Toybox.Graphics as Gfx;
 
 class DF_RollingFieldView extends Ui.DataField
 {
-
-
-	var App_Title;
-	var App_Version;
-
 	var Device_Type;
 
     var Loop_Index;
@@ -23,31 +18,42 @@ class DF_RollingFieldView extends Ui.DataField
 	var CustomFont_Value = null;
 
     var Label_Field = null;
-
+	var Label_Field_Font = Gfx.FONT_TINY;
+	var Label_Field_x = 0;
+	var Label_Field_y = 0;
+		
     var Value_Field = null;
-	var Value_Field_Font_Size = null;
+	var Value_Field_Font = Gfx.FONT_LARGE;
+	var Value_Field_x = 0;
+	var Value_Field_y = 0;
 
     var Unit_Field = null;
-    
-	var CustomFont_Value_Small = null;    
-	var CustomFont_Value_Medium = null;
-	var CustomFont_Value_Large = null;
-	    
+	var Unit_Field_Font = Gfx.FONT_XTINY;
+	var Unit_Field_x = 0;
+	var Unit_Field_y = 0;
+		    
+	var CustomFont_Value_00 = null;    
+	var CustomFont_Value_01 = null;
+	var CustomFont_Value_02 = null;
+	var CustomFont_Value_03 = null;
+	var CustomFont_Value_04 = null;
+	var CustomFont_Value_05 = null;
+	var CustomFont_Value_06 = null;
+	var CustomFont_Value_07 = null;
+	var CustomFont_Value_08 = null;
+	var CustomFont_Value_09 = null;
+
+	var Font = new [10];
+
     function initialize(Args)
     {
-
+		System.println("View - Initialize / Start - Used Memory = " + System.getSystemStats().usedMemory);
         DataField.initialize();
 
 	    Device_Type = Ui.loadResource(Rez.Strings.Device);
 
 		var Label_Value = Args[0];
 		var Duration_Value = Args[1];
-        var T = Args[2];
-        var V = Args[3];
-        
-        
-		App_Title = T;
-		App_Version = V;
 
 		Loop_Index = 0;
 		Loop_Size = 0;
@@ -66,6 +72,36 @@ class DF_RollingFieldView extends Ui.DataField
 
 		Loop_Index = 0;
 
+		// Load Custom Fonts
+
+		System.println("View - onLayout / Load F00 - Used Memory = " + System.getSystemStats().usedMemory);
+     	CustomFont_Value_00 = Ui.loadResource(Rez.Fonts.Font_Value_00);
+		System.println("View - onLayout / Load F00 - Used Memory = " + System.getSystemStats().usedMemory);
+	   	CustomFont_Value_01 = Ui.loadResource(Rez.Fonts.Font_Value_01);
+		System.println("View - onLayout / Load F00 - Used Memory = " + System.getSystemStats().usedMemory);
+		CustomFont_Value_02 = Ui.loadResource(Rez.Fonts.Font_Value_02);
+		CustomFont_Value_03 = Ui.loadResource(Rez.Fonts.Font_Value_03);
+		CustomFont_Value_04 = Ui.loadResource(Rez.Fonts.Font_Value_04);
+		CustomFont_Value_05 = Ui.loadResource(Rez.Fonts.Font_Value_05);
+		CustomFont_Value_06 = Ui.loadResource(Rez.Fonts.Font_Value_06);
+		CustomFont_Value_07 = Ui.loadResource(Rez.Fonts.Font_Value_07);
+		CustomFont_Value_08 = Ui.loadResource(Rez.Fonts.Font_Value_08);
+		CustomFont_Value_09 = Ui.loadResource(Rez.Fonts.Font_Value_09);
+		System.println("View - onLayout / Load F09 - Used Memory = " + System.getSystemStats().usedMemory);
+		
+		Font[0] = CustomFont_Value_00;
+		Font[1] = CustomFont_Value_01;
+		Font[2] = CustomFont_Value_02;
+		Font[3] = CustomFont_Value_03;
+		Font[4] = CustomFont_Value_04;
+		Font[5] = CustomFont_Value_05;
+		Font[6] = CustomFont_Value_06;
+		Font[7] = CustomFont_Value_07;
+		Font[8] = CustomFont_Value_08;
+		Font[9] = CustomFont_Value_09;
+
+
+		System.println("View - Initialize / End - Used Memory = " + System.getSystemStats().usedMemory);
     }
 
     function Initialize_Loop_Value(Value,Duration)
@@ -80,17 +116,16 @@ class DF_RollingFieldView extends Ui.DataField
 
     function onLayout(dc)
     {
+		System.println("View - onLayout / Start - Used Memory = " + System.getSystemStats().usedMemory);
 
     	System.println("DC Height  = " + dc.getHeight());
       	System.println("DC Width  = " + dc.getWidth());
 
-
     	//! The given info object contains all the current workout
     	//! information. Calculate a value and return it in this method.
 	   	View.setLayout(Rez.Layouts.MainLayout(dc));
-       
-       	//CustomFont_Value = Ui.loadResource(Rez.Fonts.Font_Value);
 
+		
 		// Get Fields
 
        	Label_Field = View.findDrawableById("Label");
@@ -99,15 +134,13 @@ class DF_RollingFieldView extends Ui.DataField
 
 		// Manage Label Field
 
-		var Label_Field_x = dc.getWidth() /2;
-		var Label_Field_y = 1;
-		var Label_Field_Font = Gfx.FONT_TINY;
-
-		System.println("Label Field - Font Height = " + Gfx.getFontHeight(Label_Field_Font));
-       	
+		Label_Field_x = dc.getWidth() /2;
+		Label_Field_y = 1;
       	Label_Field.setFont(Label_Field_Font);
        	Label_Field.setJustification(Gfx.TEXT_JUSTIFY_CENTER);
        	Label_Field.setLocation(Label_Field_x,Label_Field_y);
+
+		//System.println("Label Field - Font Height = " + Gfx.getFontHeight(Label_Field_Font));
 
 		// Manage Value Field
 
@@ -119,39 +152,12 @@ class DF_RollingFieldView extends Ui.DataField
 
 	   	// Edge 1000 -> problem with custom font rotation !!!
 
-		var Value_Field_Font = Gfx.FONT_LARGE;
-       
-       	//if (Device_Type.equals("edge_520") or Device_Type.equals("edge_820") or Device_Type.equals("edge_1000"))
        	//if (Device_Type.equals("edge_520") or Device_Type.equals("edge_820") or Device_Type.equals("edge_1030"))
 		if (Device_Type.equals("edge_1000") == false)
        	{
-       		CustomFont_Value_Small = Ui.loadResource(Rez.Fonts.Font_Value_Small);
-	   		CustomFont_Value_Medium = Ui.loadResource(Rez.Fonts.Font_Value_Medium);
-		    CustomFont_Value_Large = Ui.loadResource(Rez.Fonts.Font_Value_Large);
-			Value_Field_Font = CustomFont_Value_Large;
+			Value_Field_Font = CustomFont_Value_00;
        	}
 
-   		Value_Field.setFont(Value_Field_Font);
-		System.println("Value Field - Font Height = " + Gfx.getFontHeight(Value_Field_Font));
-
-       	
-		var Value_Field_x = dc.getWidth() / 2;
-		var Value_Field_y = Gfx.getFontHeight(Label_Field_Font) + (dc.getHeight() - Gfx.getFontHeight(Label_Field_Font)) / 2 - Gfx.getFontHeight(Value_Field_Font) /2;
-		
-		Value_Field.setJustification(Gfx.TEXT_JUSTIFY_CENTER);
-		Value_Field.setLocation(Value_Field_x,Value_Field_y);
-
-		// Manage Unit Field
-
-		var Unit_Field_x = dc.getWidth() - 5;
-		var Unit_Field_y = Value_Field_y + Gfx.getFontHeight(Value_Field_Font) / 2;
-		var Unit_Field_Font = Gfx.FONT_XTINY;
-
-		System.println("Unit Field - Font Height = " + Gfx.getFontHeight(Unit_Field_Font));
-
-       	Unit_Field.setFont(Unit_Field_Font);
-       	Unit_Field.setJustification(Gfx.TEXT_JUSTIFY_RIGHT);
-       	Unit_Field.setLocation(Unit_Field_x,Unit_Field_y);
     }
     
     
@@ -235,6 +241,8 @@ class DF_RollingFieldView extends Ui.DataField
 
     function onUpdate(dc)
     {
+		System.println("View - onUpdate / Start - Used Memory = " + System.getSystemStats().usedMemory);
+		
         // Set the background color
         View.findDrawableById("Background").setColor(getBackgroundColor());
 
@@ -269,7 +277,6 @@ class DF_RollingFieldView extends Ui.DataField
 		{
             Value_Picked = Time_Value.toString();
 			Value_Unit_Picked = "";
-			Value_Field_Font_Size = "Medium";
 		}
 
 		if (Field.equals(Ui.loadResource(Rez.Strings.Field_Timer_Label_Title)))
@@ -277,7 +284,6 @@ class DF_RollingFieldView extends Ui.DataField
 		{
             Value_Picked = Timer_Value.toString();
 			Value_Unit_Picked = "";
-			Value_Field_Font_Size = "Medium";
 		}
 		
 		if (Field.equals(Ui.loadResource(Rez.Strings.Field_Distance_Label_Title)))
@@ -296,7 +302,6 @@ class DF_RollingFieldView extends Ui.DataField
 			 }
 			//System.println(Distance_Value);
             Value_Picked = Distance_Value.format("%.1f").toString();
-        	Value_Field_Font_Size = "Large";
 		}
 
 		if (Field.equals(Ui.loadResource(Rez.Strings.Field_TimeOfDay_Label_Title)))
@@ -304,7 +309,6 @@ class DF_RollingFieldView extends Ui.DataField
 		{
             Value_Picked = TimeOfDay_Value.toString();
             Value_Unit_Picked = TimeOfDay_Meridiem_Value.toString();
-			Value_Field_Font_Size = "Large";
 		}
 
 		//System.println(Field);
@@ -312,31 +316,91 @@ class DF_RollingFieldView extends Ui.DataField
 
 		// Edge 1000 -> problem with custom font rotation !!!
 
-        //if (Device_Type.equals("edge_520") or Device_Type.equals("edge_820") or Device_Type.equals("edge_1000"))
         //if (Device_Type.equals("edge_520") or Device_Type.equals("edge_820"))
-		if (Device_Type.equals("edge_1000") == false)
+
+   		Value_Field.setFont(Value_Field_Font);
+
+
+		if (Device_Type.equals("edge_1000"))
         {
-        
-	        if (Value_Field_Font_Size.equals("Small"))
-    	    {
-        		Value_Field.setFont(CustomFont_Value_Small);
-        	}
+			Value_Field_Font = Gfx.FONT_LARGE;
+        }
+        else
+        {
+			var Value_Pattern = "8888";
 
-        	if (Value_Field_Font_Size.equals("Medium"))
-        	{
-        		Value_Field.setFont(CustomFont_Value_Medium);
-        	}
+	    	System.println("DC Height  = " + dc.getHeight());
+    	  	System.println("DC Width  = " + dc.getWidth());
+			
+			if (Field.equals(Ui.loadResource(Rez.Strings.Field_Time_Label_Title)))
+			{
+				Value_Pattern = "88:88:88";
+			}
+			else
+			if (Field.equals(Ui.loadResource(Rez.Strings.Field_Timer_Label_Title)))
+			{
+				Value_Pattern = "88:88:88";
+			}
+			else
+			if (Field.equals(Ui.loadResource(Rez.Strings.Field_Distance_Label_Title)))
+			{
+				Value_Pattern = "888.8";
+			}
+			if (Field.equals(Ui.loadResource(Rez.Strings.Field_TimeOfDay_Label_Title)))
+			{
+				Value_Pattern = "88:88";
+			}
 
-        	if (Value_Field_Font_Size.equals("Large"))
-        	{
-        		Value_Field.setFont(CustomFont_Value_Large);
-        	}
+       		Value_Field.setText(Value_Pattern);
+        		
+       		for (var i = Font.size() - 1; i >= 0 ; --i)
+       		{
+				//System.println("i = " + i);
+       			Value_Field_Font = Font[i];
+				//System.println(Field + " - Font Height = " + Gfx.getFontHeight(Value_Field_Font));
+				//System.println(Field + " - Field Width in Pixels = " + dc.getTextWidthInPixels(Value_Pattern, Value_Field_Font));
+				if (
+					(Gfx.getFontHeight(Value_Field_Font) < dc.getHeight() - Gfx.getFontHeight(Label_Field_Font) - 10)
+					&
+					(dc.getTextWidthInPixels(Value_Pattern, Value_Field_Font) < dc.getWidth() - 2 * dc.getTextWidthInPixels(Value_Unit_Picked, Unit_Field_Font) - 6)
+				   )
+				{
+					System.println(Field + " Font = " + i);
+					break;
+				}
+       		}
+
         }
 
+
+		Value_Field_x = dc.getWidth() / 2;
+		Value_Field_y = Gfx.getFontHeight(Label_Field_Font) + (dc.getHeight() - Gfx.getFontHeight(Label_Field_Font)) / 2 - Gfx.getFontHeight(Value_Field_Font) /2;
+
+		System.println("Value Field x = " + Value_Field_x);
+		System.println("Value Field y = " + Value_Field_y);
+			
+		Value_Field.setJustification(Gfx.TEXT_JUSTIFY_CENTER);
+		Value_Field.setLocation(Value_Field_x,Value_Field_y);
+
+        Value_Field.setFont(Value_Field_Font);
         Value_Field.setText(Value_Picked);
+		System.println(Field + " - Value Field - Width in Pixels = " + dc.getTextWidthInPixels(Value_Picked, Value_Field_Font));
+		System.println(Field + " - Value Field - Font Height = " + Gfx.getFontHeight(Value_Field_Font));
+
+		Unit_Field_x = Value_Field_x + dc.getTextWidthInPixels(Value_Picked, Value_Field_Font) / 2 + 2;
+		Unit_Field_y = Value_Field_y; // + Gfx.getFontHeight(Value_Field_Font) / 1;
+
+		System.println("Unit Field x = " + Unit_Field_x);
+		System.println("Unit Field y = " + Unit_Field_y);
+
+		//System.println("Unit Field - Font Height = " + Gfx.getFontHeight(Unit_Field_Font));
+       	Unit_Field.setFont(Unit_Field_Font);
+       	Unit_Field.setJustification(Gfx.TEXT_JUSTIFY_LEFT);
+       	Unit_Field.setLocation(Unit_Field_x,Unit_Field_y);
+
         Unit.setText(Value_Unit_Picked);
 
-
+		
         // Call parent's onUpdate(dc) to redraw the layout
         View.onUpdate(dc);
 	}
