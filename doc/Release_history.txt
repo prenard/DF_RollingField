@@ -4,6 +4,8 @@ You can configure the duration of each data display in seconds (0 = no display o
 
 Release History:
 
+- V1.16 - 2018-01-02
+* Dynamically adapt value font size to field size
 - V1.10 - 2017-12-27
 * Edge 1030 support
 - V1.07 - 2016-09-28

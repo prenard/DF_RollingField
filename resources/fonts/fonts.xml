@@ -1,12 +1,14 @@
 <fonts>
+	<!--  comment -->
 	<font id="Font_Value_00" filename="Arial-Narrow-Bold_020.fnt" filter="0123456789:."/>
 	<font id="Font_Value_01" filename="Arial-Narrow-Bold_022.fnt" filter="0123456789:."/>
-	<font id="Font_Value_02" filename="Arial-Narrow-Bold_025.fnt" filter="0123456789:."/>
-	<font id="Font_Value_03" filename="Arial-Narrow-Bold_030.fnt" filter="0123456789:."/>
-	<font id="Font_Value_04" filename="Arial-Narrow-Bold_035.fnt" filter="0123456789:."/>
-	<font id="Font_Value_05" filename="Arial-Narrow-Bold_040.fnt" filter="0123456789:."/>
-	<font id="Font_Value_06" filename="Arial-Narrow-Bold_045.fnt" filter="0123456789:."/>
-	<font id="Font_Value_07" filename="Arial-Narrow-Bold_050.fnt" filter="0123456789:."/>
-	<font id="Font_Value_08" filename="Arial-Narrow-Bold_060.fnt" filter="0123456789:."/>
-	<font id="Font_Value_09" filename="Arial-Narrow-Bold_070.fnt" filter="0123456789:."/>
+	<font id="Font_Value_02" filename="Arial-Narrow-Bold_024.fnt" filter="0123456789:."/>
+	<font id="Font_Value_03" filename="Arial-Narrow-Bold_026.fnt" filter="0123456789:."/>
+	<font id="Font_Value_04" filename="Arial-Narrow-Bold_030.fnt" filter="0123456789:."/>
+	<font id="Font_Value_05" filename="Arial-Narrow-Bold_033.fnt" filter="0123456789:."/>
+	<font id="Font_Value_06" filename="Arial-Narrow-Bold_037.fnt" filter="0123456789:."/>
+	<font id="Font_Value_07" filename="Arial-Narrow-Bold_040.fnt" filter="0123456789:."/>
+	<font id="Font_Value_08" filename="Arial-Narrow-Bold_045.fnt" filter="0123456789:."/>
+	<font id="Font_Value_09" filename="Arial-Narrow-Bold_050.fnt" filter="0123456789:."/>
+	<font id="Font_Value_10" filename="Arial-Narrow-Bold_055.fnt" filter="0123456789:."/>
 </fonts>

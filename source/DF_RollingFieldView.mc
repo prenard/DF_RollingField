@@ -42,8 +42,9 @@ class DF_RollingFieldView extends Ui.DataField
 	var CustomFont_Value_07 = null;
 	var CustomFont_Value_08 = null;
 	var CustomFont_Value_09 = null;
-
-	var Font = new [10];
+	var CustomFont_Value_10 = null;
+	
+	var Font = new [11];
 
     function initialize(Args)
     {
@@ -87,6 +88,7 @@ class DF_RollingFieldView extends Ui.DataField
 		CustomFont_Value_07 = Ui.loadResource(Rez.Fonts.Font_Value_07);
 		CustomFont_Value_08 = Ui.loadResource(Rez.Fonts.Font_Value_08);
 		CustomFont_Value_09 = Ui.loadResource(Rez.Fonts.Font_Value_09);
+		CustomFont_Value_10 = Ui.loadResource(Rez.Fonts.Font_Value_10);
 		System.println("View - onLayout / Load F09 - Used Memory = " + System.getSystemStats().usedMemory);
 		
 		Font[0] = CustomFont_Value_00;
@@ -99,8 +101,8 @@ class DF_RollingFieldView extends Ui.DataField
 		Font[7] = CustomFont_Value_07;
 		Font[8] = CustomFont_Value_08;
 		Font[9] = CustomFont_Value_09;
-
-
+		Font[10] = CustomFont_Value_10;
+		
 		System.println("View - Initialize / End - Used Memory = " + System.getSystemStats().usedMemory);
     }
 
@@ -327,8 +329,11 @@ class DF_RollingFieldView extends Ui.DataField
         }
         else
         {
-			var Value_Pattern = "8888";
 
+			var Value_Pattern = Value_Picked;
+
+// Start - Test with Pattern
+/*
 	    	System.println("DC Height  = " + dc.getHeight());
     	  	System.println("DC Width  = " + dc.getWidth());
 			
@@ -350,19 +355,24 @@ class DF_RollingFieldView extends Ui.DataField
 			{
 				Value_Pattern = "88:88";
 			}
+*/
+// End - Test with Pattern
 
        		Value_Field.setText(Value_Pattern);
-        		
+      
        		for (var i = Font.size() - 1; i >= 0 ; --i)
        		{
-				//System.println("i = " + i);
+				System.println("i = " + i);
        			Value_Field_Font = Font[i];
-				//System.println(Field + " - Font Height = " + Gfx.getFontHeight(Value_Field_Font));
-				//System.println(Field + " - Field Width in Pixels = " + dc.getTextWidthInPixels(Value_Pattern, Value_Field_Font));
+				System.println(Field + " - Font Height = " + Gfx.getFontHeight(Value_Field_Font));
+				System.println(Field + " - Font Max Height = " + (dc.getHeight() - Gfx.getFontHeight(Label_Field_Font) - 5));
+				System.println(Field + " - Field Width in Pixels = " + dc.getTextWidthInPixels(Value_Pattern, Value_Field_Font));
+				System.println(Field + " - Field Max Width in Pixels = " + (dc.getWidth() - 2 * dc.getTextWidthInPixels(Value_Unit_Picked, Unit_Field_Font) - 6));
+
 				if (
-					(Gfx.getFontHeight(Value_Field_Font) < dc.getHeight() - Gfx.getFontHeight(Label_Field_Font) - 10)
+					(Gfx.getFontHeight(Value_Field_Font) <= dc.getHeight() - Gfx.getFontHeight(Label_Field_Font) - 5)
 					&
-					(dc.getTextWidthInPixels(Value_Pattern, Value_Field_Font) < dc.getWidth() - 2 * dc.getTextWidthInPixels(Value_Unit_Picked, Unit_Field_Font) - 6)
+					(dc.getTextWidthInPixels(Value_Pattern, Value_Field_Font) <= dc.getWidth() - 2 * dc.getTextWidthInPixels(Value_Unit_Picked, Unit_Field_Font) - 6)
 				   )
 				{
 					System.println(Field + " Font = " + i);
@@ -383,7 +393,9 @@ class DF_RollingFieldView extends Ui.DataField
 		Value_Field.setLocation(Value_Field_x,Value_Field_y);
 
         Value_Field.setFont(Value_Field_Font);
+
         Value_Field.setText(Value_Picked);
+
 		System.println(Field + " - Value Field - Width in Pixels = " + dc.getTextWidthInPixels(Value_Picked, Value_Field_Font));
 		System.println(Field + " - Value Field - Font Height = " + Gfx.getFontHeight(Value_Field_Font));
 
