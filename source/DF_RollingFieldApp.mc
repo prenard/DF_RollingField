@@ -1,5 +1,9 @@
 // History:
 //
+// 2018-02-11: Version 1.11
+//
+//		* Create Development branch
+//
 // 2017-12-27: Version 1.10
 //
 //		* CIQ 2.41 to support Edge 1030
