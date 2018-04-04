@@ -4,6 +4,8 @@ You can configure the duration of each data display in seconds (0 = no display o
 
 Release History:
 
+- V1.17 - 2018-04-04
+* Fonts update
 - V1.16 - 2018-01-02
 * Dynamically adapt value font size to field size
 - V1.10 - 2017-12-27
