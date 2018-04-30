@@ -31,7 +31,8 @@ class DF_RollingFieldView extends Ui.DataField
 	var Unit_Field_Font = Gfx.FONT_XTINY;
 	var Unit_Field_x = 0;
 	var Unit_Field_y = 0;
-		    
+
+/*		    
 	var CustomFont_Value_00 = null;    
 	var CustomFont_Value_01 = null;
 	var CustomFont_Value_02 = null;
@@ -43,6 +44,7 @@ class DF_RollingFieldView extends Ui.DataField
 	var CustomFont_Value_08 = null;
 	var CustomFont_Value_09 = null;
 	var CustomFont_Value_10 = null;
+*/
 	
 	var Font = new [4];
 
@@ -74,13 +76,12 @@ class DF_RollingFieldView extends Ui.DataField
 		Loop_Index = 0;
 
 		// Load Custom Fonts
-
+/*
 		System.println("View - onLayout / Load F00 - Used Memory = " + System.getSystemStats().usedMemory);
      	CustomFont_Value_00 = Ui.loadResource(Rez.Fonts.Font_Value_00);
 		System.println("View - onLayout / Load F00 - Used Memory = " + System.getSystemStats().usedMemory);
 	   	CustomFont_Value_01 = Ui.loadResource(Rez.Fonts.Font_Value_01);
 		System.println("View - onLayout / Load F00 - Used Memory = " + System.getSystemStats().usedMemory);
-/*
 		CustomFont_Value_02 = Ui.loadResource(Rez.Fonts.Font_Value_02);
 		CustomFont_Value_03 = Ui.loadResource(Rez.Fonts.Font_Value_03);
 		CustomFont_Value_04 = Ui.loadResource(Rez.Fonts.Font_Value_04);

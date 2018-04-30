@@ -1,9 +1,0 @@
-<layouts>
-    <!-- A generic, centered layout. -->
-    <layout id="MainLayout">
-        <drawable class="Background" />
-        <label id="Label" x="center" y="1" color="Gfx.COLOR_BLACK" justification="Gfx.TEXT_JUSTIFY_CENTER" font="Gfx.FONT_TINY" />
-        <label id="Value" x="center" y="25" color="Gfx.COLOR_BLACK" justification="Gfx.TEXT_JUSTIFY_CENTER" />
-        <label id="Unit" x="96" y="38" color="Gfx.COLOR_BLACK" justification="Gfx.TEXT_JUSTIFY_RIGHT" font="Gfx.FONT_XTINY" />
-    </layout>
-</layouts>

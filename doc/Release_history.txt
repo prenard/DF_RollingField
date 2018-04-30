@@ -3,7 +3,12 @@ With this Data Field, you can display several data in the same display field.
 You can configure the duration of each data display in seconds (0 = no display of the selected data).
 
 Release History:
-
+- V1.18 - 2018-04-30
+* Edge 130 support
+* Edge 520 Plus support
+* Forerunner 735xt support
+* Forerunner 920 support
+* Forerunner 935xt support
 - V1.17 - 2018-04-04
 * Fonts update
 - V1.16 - 2018-01-02
