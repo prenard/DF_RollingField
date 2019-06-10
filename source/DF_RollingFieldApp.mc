@@ -48,7 +48,7 @@ class DF_RollingFieldApp extends App.AppBase
     //! Return the initial view of your application here
     function getInitialView()
     {
-		var Args = new [3];
+		var Args = new [4];
 
 		// var T;
 		
@@ -63,16 +63,19 @@ class DF_RollingFieldApp extends App.AppBase
 
 
 		Label_Value[0] = getProperty("Field_Time_Label");
-		Duration_Value[0] = getProperty("Field_Time_Duration");
+		Duration_Value[0] =  readPropertyKeyInt("Field_Time_Duration",2);
 
 		Label_Value[1] = getProperty("Field_Timer_Label");
-		Duration_Value[1] = getProperty("Field_Timer_Duration");
+		Duration_Value[1] = readPropertyKeyInt("Field_Timer_Duration",2);
 
 		Label_Value[2] = getProperty("Field_Distance_Label");
-		Duration_Value[2] = getProperty("Field_Distance_Duration");
+		Duration_Value[2] = readPropertyKeyInt("Field_Distance_Duration",2);
 
 		Label_Value[3] = getProperty("Field_TimeOfDay_Label");
-		Duration_Value[3] = getProperty("Field_TimeOfDay_Duration");
+		Duration_Value[3] = readPropertyKeyInt("Field_TimeOfDay_Duration",2);
+
+		Label_Value[4] = getProperty("Field_DistanceToDestination_Label");
+		Duration_Value[4] = readPropertyKeyInt("Field_DistanceToDestination_Duration",0);
 				
 		//T  = getProperty("DF_Title");
 
@@ -85,4 +88,25 @@ class DF_RollingFieldApp extends App.AppBase
 		return [ new DF_RollingFieldView(Args) ];
 	
     }
+
+	function readPropertyKeyInt(key,thisDefault)
+	{
+		//var value = getProperty(key);
+		var value = Application.Properties.getValue(key);
+		
+		
+        if(value == null || !(value instanceof Number))
+        {
+        	if(value != null)
+        	{
+            	value = value.toNumber();
+        	}
+        	else
+        	{
+                value = thisDefault;
+        	}
+		}
+		return value;
+	}
+
 }

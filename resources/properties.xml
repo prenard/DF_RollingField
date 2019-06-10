@@ -9,6 +9,10 @@
 	    <property id="Field_Distance_Duration" type="number">2</property>
 	    <property id="Field_TimeOfDay_Label" type="string">Time of Day</property>
 	    <property id="Field_TimeOfDay_Duration" type="number">2</property>
+	    <property id="Field_TimeOfDay_Label" type="string">Time of Day</property>
+	    <property id="Field_TimeOfDay_Duration" type="number">2</property>
+	    <property id="Field_DistanceToDestination_Label" type="string">Dist. to Dest.</property>
+	    <property id="Field_DistanceToDestination_Duration" type="number">0</property>
 	</properties>
 
 	<strings>
@@ -21,6 +25,8 @@
 	    <string id="Field_Distance_Duration_Title">Distance field duration</string>
 	    <string id="Field_TimeOfDay_Label_Title">Time of Day</string>
 	    <string id="Field_TimeOfDay_Duration_Title">Time of Day duration</string>
+	    <string id="Field_DistanceToDestination_Label_Title">Dist. to Dest.</string>
+	    <string id="Field_DistanceToDestination_Duration_Title">Distance to Destination duration</string>
 	</strings>
 	
 	<settings>
@@ -53,6 +59,11 @@
 	    <setting propertyKey="@Properties.Field_TimeOfDay_Duration" title="@Strings.Field_TimeOfDay_Duration_Title">
 	        <settingConfig type="numeric" min="0" max="10" />
 	    </setting>
-
+	    <setting propertyKey="@Properties.Field_DistanceToDestination_Label" title="@Strings.Field_DistanceToDestination_Label_Title">
+	        <settingConfig type="alphaNumeric" readonly="true" />
+	    </setting>
+	    <setting propertyKey="@Properties.Field_DistanceToDestination_Duration" title="@Strings.Field_DistanceToDestination_Duration_Title">
+	        <settingConfig type="numeric" min="0" max="10" />
+	    </setting>
 	</settings>
 </resources>

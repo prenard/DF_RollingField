@@ -3,6 +3,15 @@ With this Data Field, you can display several data in the same display field.
 You can configure the duration of each data display in seconds (0 = no display of the selected data).
 
 Release History:
+
+- V1.22 - 2019-06-10
+* Edge 530 support
+* Edge 1030 Bontrager support
+* Edge Explore support
+- V1.21 - 2019-05-20
+* Edge 830 support
+* Add Dist. to Dest. field
+* Fix bug with properties loading
 - V1.18 - 2018-04-30
 * Edge 130 support
 * Edge 520 Plus support

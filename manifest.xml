@@ -2,11 +2,15 @@
     <iq:application entry="DF_RollingFieldApp" id="49260F391C39471F863791C9B9C55F7D" launcherIcon="@Drawables.LauncherIcon" name="@Strings.AppName" type="datafield">
         <iq:products>
             <iq:product id="edge1030"/>
+            <iq:product id="edge1030bontrager"/>
             <iq:product id="edge130"/>
             <iq:product id="edge520plus"/>
+            <iq:product id="edge530"/>
             <iq:product id="edge820"/>
+            <iq:product id="edge830"/>
             <iq:product id="edge_1000"/>
             <iq:product id="edge_520"/>
+            <iq:product id="edgeexplore"/>
             <iq:product id="fr735xt"/>
             <iq:product id="fr920xt"/>
             <iq:product id="fr935"/>

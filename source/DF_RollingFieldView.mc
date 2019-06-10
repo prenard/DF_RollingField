@@ -14,6 +14,7 @@ class DF_RollingFieldView extends Ui.DataField
     var Distance_Value = 0;
     var TimeOfDay_Value = "";
     var TimeOfDay_Meridiem_Value = "";
+    var DistanceToDestination_Value = 0;
 
 	var CustomFont_Value = null;
 
@@ -193,6 +194,12 @@ class DF_RollingFieldView extends Ui.DataField
         	    Distance_Value = (info.elapsedDistance / 1000);
             }
 
+		if( info.distanceToDestination != null )
+    	    {
+        	    DistanceToDestination_Value = (info.distanceToDestination / 1000);
+            }
+
+
 		/* Time Of Day value */
 		
 		var time = Time.now().value() + System.getClockTime().timeZoneOffset;
@@ -315,6 +322,23 @@ class DF_RollingFieldView extends Ui.DataField
 			 }
 			//System.println(Distance_Value);
             Value_Picked = Distance_Value.format("%.1f").toString();
+		}
+
+		if (Field.equals(Ui.loadResource(Rez.Strings.Field_DistanceToDestination_Label_Title)))
+		{
+
+			if (System.getDeviceSettings().distanceUnits == System.UNIT_METRIC)
+			  {
+				Value_Unit_Picked = "km";
+			  }
+			 else
+			 {
+				var km_mi_conv = 0.621371;
+				Value_Unit_Picked = "mi";
+				DistanceToDestination_Value = DistanceToDestination_Value * km_mi_conv;
+			 }
+			//System.println(Distance_Value);
+            Value_Picked = DistanceToDestination_Value.format("%.1f").toString();
 		}
 
 		if (Field.equals(Ui.loadResource(Rez.Strings.Field_TimeOfDay_Label_Title)))
