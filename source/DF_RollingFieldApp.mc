@@ -27,6 +27,9 @@ class DF_RollingFieldApp extends App.AppBase
     {
         AppBase.initialize();
 
+		System.println("Device Part Number = " + System.getDeviceSettings().partNumber);
+		System.println("Device Firmware Version = " + System.getDeviceSettings().firmwareVersion);
+
         //Garmin_Device_Type = Ui.loadResource(Rez.Strings.Device);
         System.println("Device Type = " + Ui.loadResource(Rez.Strings.Device));
 
@@ -48,6 +51,10 @@ class DF_RollingFieldApp extends App.AppBase
     //! Return the initial view of your application here
     function getInitialView()
     {
+        var AppVersion = Ui.loadResource(Rez.Strings.AppVersion);
+		System.println("AppVersion = " + AppVersion);
+		setProperty("App_Version", AppVersion);
+
 		var Args = new [4];
 
 		// var T;

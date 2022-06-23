@@ -180,7 +180,7 @@ class DF_RollingFieldView extends Ui.DataField
         // See Activity.Info in the documentation for available information.
 
 		if( info.elapsedTime != null )
-            {
+            {	
                 Time_Value = TimeFormat(info.elapsedTime);
             }
 		
@@ -194,11 +194,15 @@ class DF_RollingFieldView extends Ui.DataField
         	    Distance_Value = (info.elapsedDistance / 1000);
             }
 
-		if( info.distanceToDestination != null )
-    	    {
-        	    DistanceToDestination_Value = (info.distanceToDestination / 1000);
-            }
 
+		DistanceToDestination_Value = 0;
+		if (Ui.loadResource(Rez.Strings.Support_distanceToDestination).equals("yes") )
+		{
+			if( info.distanceToDestination != null )
+    	    	{
+        	    	DistanceToDestination_Value = (info.distanceToDestination / 1000);
+            	}
+		}
 
 		/* Time Of Day value */
 		

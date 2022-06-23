@@ -4,6 +4,21 @@ You can configure the duration of each data display in seconds (0 = no display o
 
 Release History:
 
+- V1.24-2 - 2022-06-23
+* Update properties management
+* Add Edge 130 Plus support
+* Add Edge 1030 Plus support
+* Add Edge 1040 support
+* Add Forerunner 255 support
+* Add Forerunner 955 support
+* Add Fenix 5 support
+* Add Fenix 6 support
+* Add Fenix 7 support
+
+- V1.24 - 2019-06-19
+* Update properties management
+- V1.23 - 2019-06-17
+* Fix bug when updating properties
 - V1.22 - 2019-06-10
 * Edge 530 support
 * Edge 1030 Bontrager support
