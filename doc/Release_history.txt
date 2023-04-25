@@ -4,6 +4,9 @@ You can configure the duration of each data display in seconds (0 = no display o
 
 Release History:
 
+- V1.24-3 - 2023-04-25
+* Add Edge 540 & 840 support
+* Implement CIQ SDK 4.24
 - V1.24-2 - 2022-06-23
 * Update properties management
 * Add Edge 130 Plus support
@@ -14,7 +17,6 @@ Release History:
 * Add Fenix 5 support
 * Add Fenix 6 support
 * Add Fenix 7 support
-
 - V1.24 - 2019-06-19
 * Update properties management
 - V1.23 - 2019-06-17
