@@ -18,20 +18,26 @@
 using Toybox.Application as App;
 using Toybox.WatchUi as Ui;
 
+var AppVersion="1.24-04";
+
 class DF_RollingFieldApp extends App.AppBase
 {
 
 	//var Garmin_Device_Type;
+	var deviceFamily;
 
     function initialize()
     {
         AppBase.initialize();
 
+        deviceFamily = Toybox.WatchUi.loadResource(Rez.Strings.deviceFamily);
+        System.println("deviceFamily = " + deviceFamily);
+
 		System.println("Device Part Number = " + System.getDeviceSettings().partNumber);
 		System.println("Device Firmware Version = " + System.getDeviceSettings().firmwareVersion);
 
         //Garmin_Device_Type = Ui.loadResource(Rez.Strings.Device);
-        System.println("Device Type = " + Ui.loadResource(Rez.Strings.Device));
+        //System.println("Device Type = " + Ui.loadResource(Rez.Strings.Device));
 
 		System.println("Battery Level = " + System.getSystemStats().battery);
 		System.println("Total Memory = " + System.getSystemStats().totalMemory);
@@ -51,7 +57,7 @@ class DF_RollingFieldApp extends App.AppBase
     //! Return the initial view of your application here
     function getInitialView()
     {
-        var AppVersion = Ui.loadResource(Rez.Strings.AppVersion);
+        //var AppVersion = Ui.loadResource(Rez.Strings.AppVersion);
 		System.println("AppVersion = " + AppVersion);
 		setProperty("App_Version", AppVersion);
 

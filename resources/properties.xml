@@ -15,7 +15,21 @@
 	    <property id="Field_DistanceToDestination_Duration" type="number">2</property>
 	</properties>
 
-	
+	<strings>
+    	<string id="App_Version_Title">Application Version</string>
+	   	<string id="DF_Title_Title">Data Field Title</string>
+	    <string id="Field_Time_Label_Title">Time</string>
+    	<string id="Field_Time_Duration_Title">Time field duration</string>
+	    <string id="Field_Timer_Label_Title">Timer</string>
+    	<string id="Field_Timer_Duration_Title">Timer field duration</string>
+	    <string id="Field_Distance_Label_Title">Distance</string>
+    	<string id="Field_Distance_Duration_Title">Distance field duration</string>
+	    <string id="Field_TimeOfDay_Label_Title">Time of Day</string>
+    	<string id="Field_TimeOfDay_Duration_Title">Time of Day duration</string>
+	    <string id="Field_DistanceToDestination_Label_Title">Dist. to Dest.</string>
+    	<string id="Field_DistanceToDestination_Duration_Title">Distance to Destination duration</string>
+	</strings>
+
 	<settings>
 	    <setting propertyKey="@Properties.App_Version" title="@Strings.App_Version_Title">
     	    <settingConfig type="alphaNumeric" readonly="true" />

@@ -1,0 +1,68 @@
+import Toybox.Lang;
+using Toybox.WatchUi;
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics;
+using Toybox.Graphics as Gfx;
+
+module Rez {
+    module Drawables {
+        (:initialized) var LauncherIcon as Symbol;
+    } // Drawables
+
+    module Fonts {
+        (:initialized) var Font_Value_00 as Symbol;
+        (:initialized) var Font_Value_01 as Symbol;
+        (:initialized) var Font_Value_02 as Symbol;
+        (:initialized) var Font_Value_03 as Symbol;
+        (:initialized) var Font_Value_04 as Symbol;
+        (:initialized) var Font_Value_05 as Symbol;
+        (:initialized) var Font_Value_06 as Symbol;
+        (:initialized) var Font_Value_07 as Symbol;
+        (:initialized) var Font_Value_08 as Symbol;
+        (:initialized) var Font_Value_09 as Symbol;
+        (:initialized) var Font_Value_10 as Symbol;
+    } // Fonts
+
+    module JsonData {
+    } // JsonData
+
+    module Layouts {
+        function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_custom_drawable_97027004049673854294 = new Background();
+
+            var rez_cmp_local_text_Label = new WatchUi.Text({:identifier=>"Label", :font=>Graphics.FONT_MEDIUM});
+
+            var rez_cmp_local_text_Value = new WatchUi.Text({:identifier=>"Value", :font=>Graphics.FONT_MEDIUM});
+
+            var rez_cmp_local_text_Unit = new WatchUi.Text({:identifier=>"Unit", :font=>Graphics.FONT_MEDIUM});
+
+            return [rez_cmp_local_custom_drawable_97027004049673854294, rez_cmp_local_text_Label, rez_cmp_local_text_Value, rez_cmp_local_text_Unit] as Array<WatchUi.Drawable>;
+        }
+    } // Layouts
+
+    module Menus {
+    } // Menus
+
+    module Strings {
+        (:initialized) var Field_Distance_Duration_Title as Symbol;
+        (:initialized) var DF_Title_Title as Symbol;
+        (:initialized) var Field_Timer_Label_Title as Symbol;
+        (:initialized) var Field_Time_Label as Symbol;
+        (:initialized) var Field_TimeOfDay_Label as Symbol;
+        (:initialized) var Field_Time_Label_Title as Symbol;
+        (:initialized) var Field_Timer_Duration_Title as Symbol;
+        (:initialized) var Field_Time_Duration_Title as Symbol;
+        (:initialized) var Field_TimeOfDay_Duration_Title as Symbol;
+        (:initialized) var Field_DistanceToDestination_Label_Title as Symbol;
+        (:initialized) var deviceFamily as Symbol;
+        (:initialized) var App_Version_Title as Symbol;
+        (:initialized) var Field_Distance_Label_Title as Symbol;
+        (:initialized) var Field_DistanceToDestination_Duration_Title as Symbol;
+        (:initialized) var AppName as Symbol;
+        (:initialized) var Field_Timer_Label as Symbol;
+        (:initialized) var Field_TimeOfDay_Label_Title as Symbol;
+        (:initialized) var Support_distanceToDestination as Symbol;
+        (:initialized) var Field_Distance_Label as Symbol;
+        (:initialized) var Field_DistanceToDestination_Label as Symbol;
+    } // Strings
+} // Rez

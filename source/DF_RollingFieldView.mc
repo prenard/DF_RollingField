@@ -5,9 +5,15 @@ class DF_RollingFieldView extends Ui.DataField
 {
 	var Device_Type;
 
-    var Loop_Index;
+	var RF_Label_Value = new [5];
+	var RF_Duration_Value = new [5];
+
+    var Rolling_Loop_Index;
     var Loop_Size;
-	var Loop_Value = new [40];
+	var Rolling_Loop_Value = new [0];
+
+	var RoutingIsActive = false;
+	var OldRoutingIsActive = false;
 
     var Time_Value = 0;
     var Timer_Value = 0;
@@ -54,8 +60,27 @@ class DF_RollingFieldView extends Ui.DataField
 		System.println("View - Initialize / Start - Used Memory = " + System.getSystemStats().usedMemory);
         DataField.initialize();
 
-	    Device_Type = Ui.loadResource(Rez.Strings.Device);
 
+        // Manage Rolling Field
+
+		RF_Label_Value[0] = Ui.loadResource(Rez.Strings.Field_Time_Label);
+		RF_Label_Value[1] = Ui.loadResource(Rez.Strings.Field_Timer_Label);
+		RF_Label_Value[2] = Ui.loadResource(Rez.Strings.Field_Distance_Label);
+		RF_Label_Value[3] = Ui.loadResource(Rez.Strings.Field_TimeOfDay_Label);
+		RF_Label_Value[4] = Ui.loadResource(Rez.Strings.Field_DistanceToDestination_Label);
+
+		RF_Duration_Value[0] = readPropertyKeyInt("Field_Time_Duration",2);
+		RF_Duration_Value[1] = readPropertyKeyInt("Field_Timer_Duration",2);
+		RF_Duration_Value[2] = readPropertyKeyInt("Field_Distance_Duration",2);
+		RF_Duration_Value[3] = readPropertyKeyInt("Field_TimeOfDay_Duration",2);
+		RF_Duration_Value[4] = readPropertyKeyInt("Field_DistanceToDestination_Duration",2);
+
+		Initialize_Rolling_Loop();
+
+
+
+	    //Device_Type = Ui.loadResource(Rez.Strings.Device);
+/*
 		var Label_Value = Args[0];
 		var Duration_Value = Args[1];
 
@@ -75,7 +100,7 @@ class DF_RollingFieldView extends Ui.DataField
 		}
 
 		Loop_Index = 0;
-
+*/
 		// Load Custom Fonts
 /*
 		System.println("View - onLayout / Load F00 - Used Memory = " + System.getSystemStats().usedMemory);
@@ -116,7 +141,7 @@ class DF_RollingFieldView extends Ui.DataField
 		
 		System.println("View - Initialize / End - Used Memory = " + System.getSystemStats().usedMemory);
     }
-
+/*
     function Initialize_Loop_Value(Value,Duration)
     {
 		for (var i = 0; i < Duration; ++i)
@@ -126,7 +151,7 @@ class DF_RollingFieldView extends Ui.DataField
 		}
         return true;
 	}
-
+*/
     function onLayout(dc)
     {
 		System.println("View - onLayout / Start - Used Memory = " + System.getSystemStats().usedMemory);
@@ -195,6 +220,21 @@ class DF_RollingFieldView extends Ui.DataField
             }
 
 
+		RoutingIsActive = false;
+		if (info.distanceToDestination != null)
+    	{
+        	RoutingIsActive = true;
+		    DistanceToDestination_Value = (info.distanceToDestination / 1000);	
+        }
+
+		if (RoutingIsActive != OldRoutingIsActive)
+		{
+			//System.println("Generating new Rolling Field Table...");
+			Initialize_Rolling_Loop();
+			OldRoutingIsActive = RoutingIsActive;
+		}
+
+/*
 		DistanceToDestination_Value = 0;
 		if (Ui.loadResource(Rez.Strings.Support_distanceToDestination).equals("yes") )
 		{
@@ -203,7 +243,7 @@ class DF_RollingFieldView extends Ui.DataField
         	    	DistanceToDestination_Value = (info.distanceToDestination / 1000);
             	}
 		}
-
+*/
 		/* Time Of Day value */
 		
 		var time = Time.now().value() + System.getClockTime().timeZoneOffset;
@@ -248,6 +288,42 @@ class DF_RollingFieldView extends Ui.DataField
         return true;
     }
 
+
+    function Initialize_Rolling_Loop()
+    {
+		Rolling_Loop_Index = 0;
+		Rolling_Loop_Value = new [0];
+		for (var i = 0; i < RF_Label_Value.size() ; ++i)
+       	{
+       	   	if (RF_Label_Value[i] != null)
+       	   	{
+				Initialize_Rolling_Loop_Value(RF_Label_Value[i],RF_Duration_Value[i]);
+       	   	}
+		}
+	}
+
+    function Initialize_Rolling_Loop_Value(Value,Duration)
+    {
+		//System.println("Rolling Field slot Generations - " + Value + " " + Duration);
+
+		if (Value.equals(Ui.loadResource(Rez.Strings.Field_DistanceToDestination_Label)))
+		{
+			// Test if routing is active
+			if (!RoutingIsActive)
+    	    {
+				Duration = 0;
+				//System.println("Rolling Field slot Generations - " + Value + " " + Duration);
+			}
+		}
+		for (var i = 0; i < Duration; ++i)
+   		{
+			Rolling_Loop_Value.add(Value);
+		}
+		//System.println("Rolling_Loop_Value = " + Rolling_Loop_Value);
+	   	return true;
+	}
+
+
     function TimeFormat(milliseconds)
     {
       //elapsedTime is in ms.
@@ -265,7 +341,7 @@ class DF_RollingFieldView extends Ui.DataField
 
     function onUpdate(dc)
     {
-		System.println("View - onUpdate / Start - Used Memory = " + System.getSystemStats().usedMemory);
+		//System.println("View - onUpdate / Start - Used Memory = " + System.getSystemStats().usedMemory);
 		
         // Set the background color
         View.findDrawableById("Background").setColor(getBackgroundColor());
@@ -288,29 +364,30 @@ class DF_RollingFieldView extends Ui.DataField
         }
 
 
-  	    Loop_Index = (Loop_Index + 1) % Loop_Size;
-  	   
-  	    var Field = Loop_Value[Loop_Index];
+/*  	    Loop_Index = (Loop_Index + 1) % Loop_Size;*/
+  	    Rolling_Loop_Index = (Rolling_Loop_Index + 1) % Rolling_Loop_Value.size();
+
+  	    var Field = Rolling_Loop_Value[Rolling_Loop_Index];
   	    var Value_Picked = "";
   	    var Value_Unit_Picked = "";
   	      	    
    	    Label.setText(Field);
 
-		if (Field.equals(Ui.loadResource(Rez.Strings.Field_Time_Label_Title)))
+		if (Field.equals(Ui.loadResource(Rez.Strings.Field_Time_Label)))
 		//if (Field.equals("Time"))
 		{
             Value_Picked = Time_Value.toString();
 			Value_Unit_Picked = "";
 		}
 
-		if (Field.equals(Ui.loadResource(Rez.Strings.Field_Timer_Label_Title)))
+		if (Field.equals(Ui.loadResource(Rez.Strings.Field_Timer_Label)))
 		//if (Field.equals("Timer"))
 		{
             Value_Picked = Timer_Value.toString();
 			Value_Unit_Picked = "";
 		}
 		
-		if (Field.equals(Ui.loadResource(Rez.Strings.Field_Distance_Label_Title)))
+		if (Field.equals(Ui.loadResource(Rez.Strings.Field_Distance_Label)))
 		//if (Field.equals("Distance")) 
 		{
 
@@ -328,7 +405,7 @@ class DF_RollingFieldView extends Ui.DataField
             Value_Picked = Distance_Value.format("%.1f").toString();
 		}
 
-		if (Field.equals(Ui.loadResource(Rez.Strings.Field_DistanceToDestination_Label_Title)))
+		if (Field.equals(Ui.loadResource(Rez.Strings.Field_DistanceToDestination_Label)))
 		{
 
 			if (System.getDeviceSettings().distanceUnits == System.UNIT_METRIC)
@@ -345,7 +422,7 @@ class DF_RollingFieldView extends Ui.DataField
             Value_Picked = DistanceToDestination_Value.format("%.1f").toString();
 		}
 
-		if (Field.equals(Ui.loadResource(Rez.Strings.Field_TimeOfDay_Label_Title)))
+		if (Field.equals(Ui.loadResource(Rez.Strings.Field_TimeOfDay_Label)))
 		//if (Field.equals("Time of Day")) 
 		{
             Value_Picked = TimeOfDay_Value.toString();
@@ -393,12 +470,12 @@ class DF_RollingFieldView extends Ui.DataField
      
    		for (var i = Font.size() - 1; i >= 0 ; --i)
    		{
-			System.println("i = " + i);
+			//System.println("i = " + i);
    			Value_Field_Font = Font[i];
-			System.println(Field + " - Font Height = " + Gfx.getFontHeight(Value_Field_Font));
-			System.println(Field + " - Font Max Height = " + (dc.getHeight() - Gfx.getFontHeight(Label_Field_Font) - 5));
-			System.println(Field + " - Field Width in Pixels = " + dc.getTextWidthInPixels(Value_Pattern, Value_Field_Font));
-			System.println(Field + " - Field Max Width in Pixels = " + (dc.getWidth() - 2 * dc.getTextWidthInPixels(Value_Unit_Picked, Unit_Field_Font) - 6));
+			//System.println(Field + " - Font Height = " + Gfx.getFontHeight(Value_Field_Font));
+			//System.println(Field + " - Font Max Height = " + (dc.getHeight() - Gfx.getFontHeight(Label_Field_Font) - 5));
+			//System.println(Field + " - Field Width in Pixels = " + dc.getTextWidthInPixels(Value_Pattern, Value_Field_Font));
+			//System.println(Field + " - Field Max Width in Pixels = " + (dc.getWidth() - 2 * dc.getTextWidthInPixels(Value_Unit_Picked, Unit_Field_Font) - 6));
 
 			if (
 				(Gfx.getFontHeight(Value_Field_Font) <= dc.getHeight() - Gfx.getFontHeight(Label_Field_Font) - 5)
@@ -406,7 +483,7 @@ class DF_RollingFieldView extends Ui.DataField
 				(dc.getTextWidthInPixels(Value_Pattern, Value_Field_Font) <= dc.getWidth() - 2 * dc.getTextWidthInPixels(Value_Unit_Picked, Unit_Field_Font) - 6)
 			   )
 			{
-				System.println(Field + " Font = " + i);
+				//System.println(Field + " Font = " + i);
 				break;
 			}
    		}
@@ -414,8 +491,8 @@ class DF_RollingFieldView extends Ui.DataField
 		Value_Field_x = dc.getWidth() / 2;
 		Value_Field_y = Gfx.getFontHeight(Label_Field_Font) + (dc.getHeight() - Gfx.getFontHeight(Label_Field_Font)) / 2 - Gfx.getFontHeight(Value_Field_Font) /2;
 
-		System.println("Value Field x = " + Value_Field_x);
-		System.println("Value Field y = " + Value_Field_y);
+		//System.println("Value Field x = " + Value_Field_x);
+		//System.println("Value Field y = " + Value_Field_y);
 			
 		Value_Field.setJustification(Gfx.TEXT_JUSTIFY_CENTER);
 		Value_Field.setLocation(Value_Field_x,Value_Field_y);
@@ -424,14 +501,14 @@ class DF_RollingFieldView extends Ui.DataField
 
         Value_Field.setText(Value_Picked);
 
-		System.println(Field + " - Value Field - Width in Pixels = " + dc.getTextWidthInPixels(Value_Picked, Value_Field_Font));
-		System.println(Field + " - Value Field - Font Height = " + Gfx.getFontHeight(Value_Field_Font));
+		//System.println(Field + " - Value Field - Width in Pixels = " + dc.getTextWidthInPixels(Value_Picked, Value_Field_Font));
+		//System.println(Field + " - Value Field - Font Height = " + Gfx.getFontHeight(Value_Field_Font));
 
 		Unit_Field_x = Value_Field_x + dc.getTextWidthInPixels(Value_Picked, Value_Field_Font) / 2 + 2;
 		Unit_Field_y = Value_Field_y; // + Gfx.getFontHeight(Value_Field_Font) / 1;
 
-		System.println("Unit Field x = " + Unit_Field_x);
-		System.println("Unit Field y = " + Unit_Field_y);
+		//System.println("Unit Field x = " + Unit_Field_x);
+		//System.println("Unit Field y = " + Unit_Field_y);
 
 		//System.println("Unit Field - Font Height = " + Gfx.getFontHeight(Unit_Field_Font));
        	Unit_Field.setFont(Unit_Field_Font);
@@ -444,4 +521,21 @@ class DF_RollingFieldView extends Ui.DataField
         // Call parent's onUpdate(dc) to redraw the layout
         View.onUpdate(dc);
 	}
+
+    function readPropertyKeyInt(key,thisDefault)
+    {
+	    var value = Application.Properties.getValue(key);
+        if(value == null || !(value instanceof Number))
+        {
+            if(value != null)
+            {
+               	value = value.toNumber();
+            }
+       	    else
+       	    {
+                value = thisDefault;
+            }
+	    }
+	    return value;
+    }
 }

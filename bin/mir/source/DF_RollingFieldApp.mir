@@ -2,283 +2,280 @@
 using Toybox.Application as :App;
 [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc"; @line = 19; ]
 using Toybox.WatchUi as :Ui;
-[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc"; @line = 21; ]
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc"; @line = 21; @position = 4; ]
+var AppVersion = "1.24-04";
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc"; @line = 23; ]
 class DF_RollingFieldApp extends App.AppBase{
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc"; @line = 21; ]
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc"; @line = 23; ]
     <init> {
     }
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc"; @line = 21; ]
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc"; @line = 23; ]
     static
     <init> {
     }
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc"; @line = 26; ]
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc"; @line = 27; @position = 5; ]
+    var deviceFamily;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc"; @line = 29; ]
     function initialize() as Void {
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_27_4_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 28 8 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_30_4_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 31 8 ]
         %tmp.2 = getv ? :AppBase;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 30 2 ]
-        %tmp.5 = getv ? :System;
-        %tmp.6 = getv function %tmp.5 :println;
-        %tmp.7 = "Device Part Number = ";
-        %tmp.9 = getv ? :System;
-        %tmp.10 = getv function %tmp.9 :getDeviceSettings;
-        %tmp.11 = invoke %tmp.9 %tmp.10();
-        %tmp.12 = getv %tmp.11 :partNumber;
-        %tmp.13 = add %tmp.7 %tmp.12;
-        invoke %tmp.5 %tmp.6(%tmp.13);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 31 2 ]
-        %tmp.15 = getv ? :System;
-        %tmp.16 = getv function %tmp.15 :println;
-        %tmp.17 = "Device Firmware Version = ";
-        %tmp.19 = getv ? :System;
-        %tmp.20 = getv function %tmp.19 :getDeviceSettings;
-        %tmp.21 = invoke %tmp.19 %tmp.20();
-        %tmp.22 = getv %tmp.21 :firmwareVersion;
-        %tmp.23 = add %tmp.17 %tmp.22;
-        invoke %tmp.15 %tmp.16(%tmp.23);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 33 8 ]
+        %tmp.4 = getm $.Toybox.WatchUi;
+        %tmp.5 = getv function %tmp.4 :loadResource;
+        %tmp.7 = getv ? :Rez;
+        %tmp.8 = getv %tmp.7 :Strings;
+        %tmp.9 = getv %tmp.8 :deviceFamily;
+        %tmp.10 = invoke %tmp.4 %tmp.5(%tmp.9);
+        putv self :deviceFamily %tmp.10;
 [ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 34 8 ]
-        %tmp.25 = getv ? :System;
-        %tmp.26 = getv function %tmp.25 :println;
-        %tmp.27 = "Device Type = ";
-        %tmp.28 = getm $.Toybox.WatchUi;
-        %tmp.29 = getv function %tmp.28 :loadResource;
-        %tmp.31 = getv ? :Rez;
-        %tmp.32 = getv %tmp.31 :Strings;
-        %tmp.33 = getv %tmp.32 :Device;
-        %tmp.34 = invoke %tmp.28 %tmp.29(%tmp.33);
-        %tmp.35 = add %tmp.27 %tmp.34;
-        invoke %tmp.25 %tmp.26(%tmp.35);
+        %tmp.12 = getv ? :System;
+        %tmp.13 = getv function %tmp.12 :println;
+        %tmp.14 = "deviceFamily = ";
+        %tmp.16 = getv ? :deviceFamily;
+        %tmp.17 = add %tmp.14 %tmp.16;
+        invoke %tmp.12 %tmp.13(%tmp.17);
 [ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 36 2 ]
-        %tmp.37 = getv ? :System;
-        %tmp.38 = getv function %tmp.37 :println;
-        %tmp.39 = "Battery Level = ";
-        %tmp.41 = getv ? :System;
-        %tmp.42 = getv function %tmp.41 :getSystemStats;
-        %tmp.43 = invoke %tmp.41 %tmp.42();
-        %tmp.44 = getv %tmp.43 :battery;
-        %tmp.45 = add %tmp.39 %tmp.44;
-        invoke %tmp.37 %tmp.38(%tmp.45);
+        %tmp.19 = getv ? :System;
+        %tmp.20 = getv function %tmp.19 :println;
+        %tmp.21 = "Device Part Number = ";
+        %tmp.23 = getv ? :System;
+        %tmp.24 = getv function %tmp.23 :getDeviceSettings;
+        %tmp.25 = invoke %tmp.23 %tmp.24();
+        %tmp.26 = getv %tmp.25 :partNumber;
+        %tmp.27 = add %tmp.21 %tmp.26;
+        invoke %tmp.19 %tmp.20(%tmp.27);
 [ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 37 2 ]
-        %tmp.47 = getv ? :System;
-        %tmp.48 = getv function %tmp.47 :println;
-        %tmp.49 = "Total Memory = ";
-        %tmp.51 = getv ? :System;
-        %tmp.52 = getv function %tmp.51 :getSystemStats;
-        %tmp.53 = invoke %tmp.51 %tmp.52();
-        %tmp.54 = getv %tmp.53 :totalMemory;
-        %tmp.55 = add %tmp.49 %tmp.54;
-        invoke %tmp.47 %tmp.48(%tmp.55);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 38 2 ]
-        %tmp.57 = getv ? :System;
-        %tmp.58 = getv function %tmp.57 :println;
-        %tmp.59 = "Used Memory = ";
-        %tmp.61 = getv ? :System;
-        %tmp.62 = getv function %tmp.61 :getSystemStats;
-        %tmp.63 = invoke %tmp.61 %tmp.62();
-        %tmp.64 = getv %tmp.63 :usedMemory;
-        %tmp.65 = add %tmp.59 %tmp.64;
-        invoke %tmp.57 %tmp.58(%tmp.65);
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_27_4_stop:
+        %tmp.29 = getv ? :System;
+        %tmp.30 = getv function %tmp.29 :println;
+        %tmp.31 = "Device Firmware Version = ";
+        %tmp.33 = getv ? :System;
+        %tmp.34 = getv function %tmp.33 :getDeviceSettings;
+        %tmp.35 = invoke %tmp.33 %tmp.34();
+        %tmp.36 = getv %tmp.35 :firmwareVersion;
+        %tmp.37 = add %tmp.31 %tmp.36;
+        invoke %tmp.29 %tmp.30(%tmp.37);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 42 2 ]
+        %tmp.39 = getv ? :System;
+        %tmp.40 = getv function %tmp.39 :println;
+        %tmp.41 = "Battery Level = ";
+        %tmp.43 = getv ? :System;
+        %tmp.44 = getv function %tmp.43 :getSystemStats;
+        %tmp.45 = invoke %tmp.43 %tmp.44();
+        %tmp.46 = getv %tmp.45 :battery;
+        %tmp.47 = add %tmp.41 %tmp.46;
+        invoke %tmp.39 %tmp.40(%tmp.47);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 43 2 ]
+        %tmp.49 = getv ? :System;
+        %tmp.50 = getv function %tmp.49 :println;
+        %tmp.51 = "Total Memory = ";
+        %tmp.53 = getv ? :System;
+        %tmp.54 = getv function %tmp.53 :getSystemStats;
+        %tmp.55 = invoke %tmp.53 %tmp.54();
+        %tmp.56 = getv %tmp.55 :totalMemory;
+        %tmp.57 = add %tmp.51 %tmp.56;
+        invoke %tmp.49 %tmp.50(%tmp.57);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 44 2 ]
+        %tmp.59 = getv ? :System;
+        %tmp.60 = getv function %tmp.59 :println;
+        %tmp.61 = "Used Memory = ";
+        %tmp.63 = getv ? :System;
+        %tmp.64 = getv function %tmp.63 :getSystemStats;
+        %tmp.65 = invoke %tmp.63 %tmp.64();
+        %tmp.66 = getv %tmp.65 :usedMemory;
+        %tmp.67 = add %tmp.61 %tmp.66;
+        invoke %tmp.59 %tmp.60(%tmp.67);
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_30_4_stop:
     }
     //! onStart() is called on application start up
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc"; @line = 42; ]
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc"; @line = 48; ]
     function onStart(state) {
     }
     //! onStop() is called when your application is exiting
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc"; @line = 47; ]
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc"; @line = 53; ]
     function onStop(state) {
     }
     //! Return the initial view of your application here
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc"; @line = 52; ]
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc"; @line = 58; ]
     function getInitialView() {
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_53_4_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 54 8 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_53_4_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_53_4_stop" ]
-        %AppVersion.1 = local;
-        %tmp.1 = getm $.Toybox.WatchUi;
-        %tmp.2 = getv function %tmp.1 :loadResource;
-        %tmp.4 = getv ? :Rez;
-        %tmp.5 = getv %tmp.4 :Strings;
-        %tmp.6 = getv %tmp.5 :AppVersion;
-        %tmp.7 = invoke %tmp.1 %tmp.2(%tmp.6);
-        lputv %AppVersion.1 %tmp.7;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 55 2 ]
-        %tmp.9 = getv ? :System;
-        %tmp.10 = getv function %tmp.9 :println;
-        %tmp.11 = "AppVersion = ";
-        %tmp.13 = lgetv %AppVersion.1;
-        %tmp.14 = add %tmp.11 %tmp.13;
-        invoke %tmp.9 %tmp.10(%tmp.14);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 56 2 ]
-        %tmp.15 = self;
-        %tmp.16 = getv function %tmp.15 :setProperty;
-        %tmp.17 = "App_Version";
-        %tmp.19 = lgetv %AppVersion.1;
-        invoke %tmp.15 %tmp.16(%tmp.17, %tmp.19);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 58 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_53_4_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_53_4_stop" ]
-        %Args.2 = local;
-        %tmp.21 = 4;
-        %tmp.20 = newa %tmp.21;
-        lputv %Args.2 %tmp.20;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_59_4_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 61 2 ]
+        %tmp.2 = getv ? :System;
+        %tmp.3 = getv function %tmp.2 :println;
+        %tmp.4 = "AppVersion = ";
+        %tmp.6 = getv ? :AppVersion;
+        %tmp.7 = add %tmp.4 %tmp.6;
+        invoke %tmp.2 %tmp.3(%tmp.7);
 [ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 62 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_53_4_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_53_4_stop" ]
-        %Label_Value.3 = local;
-        %tmp.23 = 10;
-        %tmp.22 = newa %tmp.23;
-        lputv %Label_Value.3 %tmp.22;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 63 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_53_4_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_53_4_stop" ]
-        %Duration_Value.4 = local;
-        %tmp.25 = 10;
-        %tmp.24 = newa %tmp.25;
-        lputv %Duration_Value.4 %tmp.24;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 65 2 ]
-        for @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_65_2_for_test @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_65_2_for_incr @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_65_2_for_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_65_2_for_init:
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_65_2_for_begin" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_65_2_for_end" ]
-        %i.5 = local;
-        %tmp.26 = 0;
-        lputv %i.5 %tmp.26;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_65_2_for_test:
-        %tmp.28 = lgetv %i.5;
-        %tmp.29 = lgetv %Label_Value.3;
-        %tmp.30 = getv function %tmp.29 :size;
-        %tmp.31 = invoke %tmp.29 %tmp.30();
-        %tmp.32 = lt %tmp.28 %tmp.31;
-        bf %tmp.32 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_65_2_for_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_65_2_for_begin:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_66_8_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 67 11 ]
-        %tmp.33 = lgetv %Label_Value.3;
-        %tmp.34 = null;
-        %tmp.36 = lgetv %i.5;
-        aputv %tmp.33 %tmp.36 %tmp.34;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 68 11 ]
-        %tmp.37 = lgetv %Duration_Value.4;
-        %tmp.38 = 0;
-        %tmp.40 = lgetv %i.5;
-        aputv %tmp.37 %tmp.40 %tmp.38;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_66_8_stop:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_65_2_for_incr:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 65 ]
-        %tmp.43 = lgetv %i.5;
-        %tmp.44 = add %tmp.43 1;
-        lputv %i.5 %tmp.44;
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_65_2_for_test;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_65_2_for_end:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 72 2 ]
-        %tmp.45 = lgetv %Label_Value.3;
-        %tmp.46 = self;
-        %tmp.47 = getv function %tmp.46 :getProperty;
-        %tmp.48 = "Field_Time_Label";
-        %tmp.49 = invoke %tmp.46 %tmp.47(%tmp.48);
-        %tmp.50 = 0;
-        aputv %tmp.45 %tmp.50 %tmp.49;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 73 2 ]
-        %tmp.51 = lgetv %Duration_Value.4;
-        %tmp.52 = self;
-        %tmp.53 = getv function %tmp.52 :readPropertyKeyInt;
-        %tmp.54 = "Field_Time_Duration";
-        %tmp.55 = 2;
-        %tmp.56 = invoke %tmp.52 %tmp.53(%tmp.54, %tmp.55);
-        %tmp.57 = 0;
-        aputv %tmp.51 %tmp.57 %tmp.56;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 75 2 ]
-        %tmp.58 = lgetv %Label_Value.3;
-        %tmp.59 = self;
-        %tmp.60 = getv function %tmp.59 :getProperty;
-        %tmp.61 = "Field_Timer_Label";
-        %tmp.62 = invoke %tmp.59 %tmp.60(%tmp.61);
-        %tmp.63 = 1;
-        aputv %tmp.58 %tmp.63 %tmp.62;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 76 2 ]
-        %tmp.64 = lgetv %Duration_Value.4;
-        %tmp.65 = self;
-        %tmp.66 = getv function %tmp.65 :readPropertyKeyInt;
-        %tmp.67 = "Field_Timer_Duration";
-        %tmp.68 = 2;
-        %tmp.69 = invoke %tmp.65 %tmp.66(%tmp.67, %tmp.68);
-        %tmp.70 = 1;
-        aputv %tmp.64 %tmp.70 %tmp.69;
+        %tmp.8 = self;
+        %tmp.9 = getv function %tmp.8 :setProperty;
+        %tmp.10 = "App_Version";
+        %tmp.12 = getv ? :AppVersion;
+        invoke %tmp.8 %tmp.9(%tmp.10, %tmp.12);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 64 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_59_4_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_59_4_stop" ]
+        %Args.1 = local;
+        %tmp.14 = 4;
+        %tmp.13 = newa %tmp.14;
+        lputv %Args.1 %tmp.13;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 68 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_59_4_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_59_4_stop" ]
+        %Label_Value.2 = local;
+        %tmp.16 = 10;
+        %tmp.15 = newa %tmp.16;
+        lputv %Label_Value.2 %tmp.15;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 69 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_59_4_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_59_4_stop" ]
+        %Duration_Value.3 = local;
+        %tmp.18 = 10;
+        %tmp.17 = newa %tmp.18;
+        lputv %Duration_Value.3 %tmp.17;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 71 2 ]
+        for @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_71_2_for_test @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_71_2_for_incr @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_71_2_for_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_71_2_for_init:
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_71_2_for_begin" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_71_2_for_end" ]
+        %i.4 = local;
+        %tmp.19 = 0;
+        lputv %i.4 %tmp.19;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_71_2_for_test:
+        %tmp.21 = lgetv %i.4;
+        %tmp.22 = lgetv %Label_Value.2;
+        %tmp.23 = getv function %tmp.22 :size;
+        %tmp.24 = invoke %tmp.22 %tmp.23();
+        %tmp.25 = lt %tmp.21 %tmp.24;
+        bf %tmp.25 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_71_2_for_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_71_2_for_begin:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_72_8_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 73 11 ]
+        %tmp.26 = lgetv %Label_Value.2;
+        %tmp.27 = null;
+        %tmp.29 = lgetv %i.4;
+        aputv %tmp.26 %tmp.29 %tmp.27;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 74 11 ]
+        %tmp.30 = lgetv %Duration_Value.3;
+        %tmp.31 = 0;
+        %tmp.33 = lgetv %i.4;
+        aputv %tmp.30 %tmp.33 %tmp.31;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_72_8_stop:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_71_2_for_incr:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 71 ]
+        %tmp.36 = lgetv %i.4;
+        %tmp.37 = add %tmp.36 1;
+        lputv %i.4 %tmp.37;
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_71_2_for_test;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_71_2_for_end:
 [ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 78 2 ]
-        %tmp.71 = lgetv %Label_Value.3;
-        %tmp.72 = self;
-        %tmp.73 = getv function %tmp.72 :getProperty;
-        %tmp.74 = "Field_Distance_Label";
-        %tmp.75 = invoke %tmp.72 %tmp.73(%tmp.74);
-        %tmp.76 = 2;
-        aputv %tmp.71 %tmp.76 %tmp.75;
+        %tmp.38 = lgetv %Label_Value.2;
+        %tmp.39 = self;
+        %tmp.40 = getv function %tmp.39 :getProperty;
+        %tmp.41 = "Field_Time_Label";
+        %tmp.42 = invoke %tmp.39 %tmp.40(%tmp.41);
+        %tmp.43 = 0;
+        aputv %tmp.38 %tmp.43 %tmp.42;
 [ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 79 2 ]
-        %tmp.77 = lgetv %Duration_Value.4;
-        %tmp.78 = self;
-        %tmp.79 = getv function %tmp.78 :readPropertyKeyInt;
-        %tmp.80 = "Field_Distance_Duration";
-        %tmp.81 = 2;
-        %tmp.82 = invoke %tmp.78 %tmp.79(%tmp.80, %tmp.81);
-        %tmp.83 = 2;
-        aputv %tmp.77 %tmp.83 %tmp.82;
+        %tmp.44 = lgetv %Duration_Value.3;
+        %tmp.45 = self;
+        %tmp.46 = getv function %tmp.45 :readPropertyKeyInt;
+        %tmp.47 = "Field_Time_Duration";
+        %tmp.48 = 2;
+        %tmp.49 = invoke %tmp.45 %tmp.46(%tmp.47, %tmp.48);
+        %tmp.50 = 0;
+        aputv %tmp.44 %tmp.50 %tmp.49;
 [ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 81 2 ]
-        %tmp.84 = lgetv %Label_Value.3;
-        %tmp.85 = self;
-        %tmp.86 = getv function %tmp.85 :getProperty;
-        %tmp.87 = "Field_TimeOfDay_Label";
-        %tmp.88 = invoke %tmp.85 %tmp.86(%tmp.87);
-        %tmp.89 = 3;
-        aputv %tmp.84 %tmp.89 %tmp.88;
+        %tmp.51 = lgetv %Label_Value.2;
+        %tmp.52 = self;
+        %tmp.53 = getv function %tmp.52 :getProperty;
+        %tmp.54 = "Field_Timer_Label";
+        %tmp.55 = invoke %tmp.52 %tmp.53(%tmp.54);
+        %tmp.56 = 1;
+        aputv %tmp.51 %tmp.56 %tmp.55;
 [ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 82 2 ]
-        %tmp.90 = lgetv %Duration_Value.4;
-        %tmp.91 = self;
-        %tmp.92 = getv function %tmp.91 :readPropertyKeyInt;
-        %tmp.93 = "Field_TimeOfDay_Duration";
-        %tmp.94 = 2;
-        %tmp.95 = invoke %tmp.91 %tmp.92(%tmp.93, %tmp.94);
-        %tmp.96 = 3;
-        aputv %tmp.90 %tmp.96 %tmp.95;
+        %tmp.57 = lgetv %Duration_Value.3;
+        %tmp.58 = self;
+        %tmp.59 = getv function %tmp.58 :readPropertyKeyInt;
+        %tmp.60 = "Field_Timer_Duration";
+        %tmp.61 = 2;
+        %tmp.62 = invoke %tmp.58 %tmp.59(%tmp.60, %tmp.61);
+        %tmp.63 = 1;
+        aputv %tmp.57 %tmp.63 %tmp.62;
 [ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 84 2 ]
-        %tmp.97 = lgetv %Label_Value.3;
-        %tmp.98 = self;
-        %tmp.99 = getv function %tmp.98 :getProperty;
-        %tmp.100 = "Field_DistanceToDestination_Label";
-        %tmp.101 = invoke %tmp.98 %tmp.99(%tmp.100);
-        %tmp.102 = 4;
-        aputv %tmp.97 %tmp.102 %tmp.101;
+        %tmp.64 = lgetv %Label_Value.2;
+        %tmp.65 = self;
+        %tmp.66 = getv function %tmp.65 :getProperty;
+        %tmp.67 = "Field_Distance_Label";
+        %tmp.68 = invoke %tmp.65 %tmp.66(%tmp.67);
+        %tmp.69 = 2;
+        aputv %tmp.64 %tmp.69 %tmp.68;
 [ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 85 2 ]
-        %tmp.103 = lgetv %Duration_Value.4;
-        %tmp.104 = self;
-        %tmp.105 = getv function %tmp.104 :readPropertyKeyInt;
-        %tmp.106 = "Field_DistanceToDestination_Duration";
-        %tmp.107 = 0;
-        %tmp.108 = invoke %tmp.104 %tmp.105(%tmp.106, %tmp.107);
-        %tmp.109 = 4;
-        aputv %tmp.103 %tmp.109 %tmp.108;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 89 2 ]
-        %tmp.110 = lgetv %Args.2;
-        %tmp.112 = lgetv %Label_Value.3;
-        %tmp.113 = 0;
-        aputv %tmp.110 %tmp.113 %tmp.112;
+        %tmp.70 = lgetv %Duration_Value.3;
+        %tmp.71 = self;
+        %tmp.72 = getv function %tmp.71 :readPropertyKeyInt;
+        %tmp.73 = "Field_Distance_Duration";
+        %tmp.74 = 2;
+        %tmp.75 = invoke %tmp.71 %tmp.72(%tmp.73, %tmp.74);
+        %tmp.76 = 2;
+        aputv %tmp.70 %tmp.76 %tmp.75;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 87 2 ]
+        %tmp.77 = lgetv %Label_Value.2;
+        %tmp.78 = self;
+        %tmp.79 = getv function %tmp.78 :getProperty;
+        %tmp.80 = "Field_TimeOfDay_Label";
+        %tmp.81 = invoke %tmp.78 %tmp.79(%tmp.80);
+        %tmp.82 = 3;
+        aputv %tmp.77 %tmp.82 %tmp.81;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 88 2 ]
+        %tmp.83 = lgetv %Duration_Value.3;
+        %tmp.84 = self;
+        %tmp.85 = getv function %tmp.84 :readPropertyKeyInt;
+        %tmp.86 = "Field_TimeOfDay_Duration";
+        %tmp.87 = 2;
+        %tmp.88 = invoke %tmp.84 %tmp.85(%tmp.86, %tmp.87);
+        %tmp.89 = 3;
+        aputv %tmp.83 %tmp.89 %tmp.88;
 [ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 90 2 ]
-        %tmp.114 = lgetv %Args.2;
-        %tmp.116 = lgetv %Duration_Value.4;
-        %tmp.117 = 1;
-        aputv %tmp.114 %tmp.117 %tmp.116;
+        %tmp.90 = lgetv %Label_Value.2;
+        %tmp.91 = self;
+        %tmp.92 = getv function %tmp.91 :getProperty;
+        %tmp.93 = "Field_DistanceToDestination_Label";
+        %tmp.94 = invoke %tmp.91 %tmp.92(%tmp.93);
+        %tmp.95 = 4;
+        aputv %tmp.90 %tmp.95 %tmp.94;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 91 2 ]
+        %tmp.96 = lgetv %Duration_Value.3;
+        %tmp.97 = self;
+        %tmp.98 = getv function %tmp.97 :readPropertyKeyInt;
+        %tmp.99 = "Field_DistanceToDestination_Duration";
+        %tmp.100 = 0;
+        %tmp.101 = invoke %tmp.97 %tmp.98(%tmp.99, %tmp.100);
+        %tmp.102 = 4;
+        aputv %tmp.96 %tmp.102 %tmp.101;
 [ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 95 2 ]
-        %tmp.118 = newa 1;
-        %tmp.122 = getv ? :DF_RollingFieldView;
-        %tmp.124 = lgetv %Args.2;
-        %tmp.119 = newc %tmp.122 (%tmp.124);
-        %tmp.125 = dup %tmp.118;
-        %tmp.126 = aputv %tmp.125 0 %tmp.119;
-        ret %tmp.126;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_53_4_stop:
+        %tmp.103 = lgetv %Args.1;
+        %tmp.105 = lgetv %Label_Value.2;
+        %tmp.106 = 0;
+        aputv %tmp.103 %tmp.106 %tmp.105;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 96 2 ]
+        %tmp.107 = lgetv %Args.1;
+        %tmp.109 = lgetv %Duration_Value.3;
+        %tmp.110 = 1;
+        aputv %tmp.107 %tmp.110 %tmp.109;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 101 2 ]
+        %tmp.111 = newa 1;
+        %tmp.115 = getv ? :DF_RollingFieldView;
+        %tmp.117 = lgetv %Args.1;
+        %tmp.112 = newc %tmp.115 (%tmp.117);
+        %tmp.118 = dup %tmp.111;
+        %tmp.119 = aputv %tmp.118 0 %tmp.112;
+        ret %tmp.119;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_59_4_stop:
     }
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc"; @line = 99; ]
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc"; @line = 105; ]
     function readPropertyKeyInt(key, thisDefault) {
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_100_1_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 102 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_100_1_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_100_1_stop" ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_106_1_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 108 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_106_1_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_106_1_stop" ]
         %value.1 = local;
         %tmp.2 = getv ? :Application;
         %tmp.3 = getv %tmp.2 :Properties;
@@ -286,15 +283,15 @@ C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_dat
         %tmp.6 = lgetv %key;
         %tmp.7 = invoke %tmp.3 %tmp.4(%tmp.6);
         lputv %value.1 %tmp.7;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 105 8 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_105_8_if_stmt:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_105_11_begin:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 111 8 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_111_8_if_stmt:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_111_11_begin:
         %tmp.9 = lgetv %value.1;
         %tmp.10 = null;
         %tmp.11 = eq %tmp.9 %tmp.10;
         %tmp.12 = dup %tmp.11;
-        bt %tmp.12 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_105_28_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_105_28_false:
+        bt %tmp.12 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_111_28_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_111_28_false:
         %tmp.14 = lgetv %value.1;
         %tmp.15 = as %tmp.14 { (!Null) };
         %tmp.17 = getv ? :Number;
@@ -302,42 +299,42 @@ C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_dat
         %tmp.19 = not %tmp.18;
         %tmp.20 = or %tmp.11 %tmp.19;
         push %tmp.20;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_105_28_end:
-        %tmp.21 = phi [%tmp.12 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_105_11_begin] [%tmp.20 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_105_28_false] [%tmp.21 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_105_28_end];
-        bf %tmp.21 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_105_8_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_105_8_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_106_8_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 107 9 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_107_9_if_stmt:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_111_28_end:
+        %tmp.21 = phi [%tmp.12 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_111_11_begin] [%tmp.20 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_111_28_false] [%tmp.21 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_111_28_end];
+        bf %tmp.21 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_111_8_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_111_8_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_112_8_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 113 9 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_113_9_if_stmt:
         %tmp.23 = lgetv %value.1;
         %tmp.24 = as %tmp.23 { (Null || !(Number)) };
         %tmp.25 = null;
         %tmp.26 = ne %tmp.24 %tmp.25;
-        bf %tmp.26 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_107_9_if_false;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_107_9_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_108_9_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 109 13 ]
+        bf %tmp.26 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_113_9_if_false;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_113_9_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_114_9_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 115 13 ]
         %tmp.27 = lgetv %value.1;
         %tmp.28 = as %tmp.27 { (!Null) && (Null || !(Number)) };
         %tmp.29 = getv function %tmp.28 :toNumber;
         %tmp.30 = invoke %tmp.28 %tmp.29();
         lputv %value.1 %tmp.30;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_108_9_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_107_9_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_107_9_if_false:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_112_9_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 113 16 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_114_9_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_113_9_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_113_9_if_false:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_118_9_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 119 16 ]
         %tmp.32 = lgetv %thisDefault;
         lputv %value.1 %tmp.32;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_112_9_stop:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_107_9_if_end:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_106_8_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_105_8_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_105_8_if_end:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 116 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_118_9_stop:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_113_9_if_end:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_112_8_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_111_8_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_111_8_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc" 122 2 ]
         %tmp.34 = lgetv %value.1;
         ret %tmp.34;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_100_1_stop:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_RollingField_source_DF_RollingFieldApp_mc_106_1_stop:
     }
 }
 [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\source\DF_RollingFieldApp.mc"; @line = 18; ]

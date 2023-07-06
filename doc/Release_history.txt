@@ -4,9 +4,14 @@ You can configure the duration of each data display in seconds (0 = no display o
 
 Release History:
 
+- V1.24-04 - 2023-07-06
+* Display "Dist to Dest" only when routing is active
+* Update version management
+* Implement CIQ SDK 6.21
 - V1.24-3 - 2023-04-25
 * Add Edge 540 & 840 support
 * Implement CIQ SDK 4.24
+* Add Application Version support
 - V1.24-2 - 2022-06-23
 * Update properties management
 * Add Edge 130 Plus support

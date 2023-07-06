@@ -2,372 +2,393 @@
 <debugInfo>
 <manifest filename="C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_RollingField\manifest.xml"/>
 <pcToLineNum>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="1" lineNum="21" parent="globals/DF_RollingFieldApp" pc="268435460" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="2" lineNum="42" parent="globals/DF_RollingFieldApp" pc="268435479" symbol="onStart"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="52" parent="globals/DF_RollingFieldApp" pc="268435482" symbol="getInitialView"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="54" parent="globals/DF_RollingFieldApp" pc="268435486" symbol="getInitialView"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="55" parent="globals/DF_RollingFieldApp" pc="268435527" symbol="getInitialView"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="56" parent="globals/DF_RollingFieldApp" pc="268435553" symbol="getInitialView"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="58" parent="globals/DF_RollingFieldApp" pc="268435572" symbol="getInitialView"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="62" parent="globals/DF_RollingFieldApp" pc="268435580" symbol="getInitialView"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="63" parent="globals/DF_RollingFieldApp" pc="268435588" symbol="getInitialView"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="65" parent="globals/DF_RollingFieldApp" pc="268435596" symbol="getInitialView"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="67" parent="globals/DF_RollingFieldApp" pc="268435620" symbol="getInitialView"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="68" parent="globals/DF_RollingFieldApp" pc="268435626" symbol="getInitialView"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="72" parent="globals/DF_RollingFieldApp" pc="268435649" symbol="getInitialView"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="73" parent="globals/DF_RollingFieldApp" pc="268435673" symbol="getInitialView"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="75" parent="globals/DF_RollingFieldApp" pc="268435702" symbol="getInitialView"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="76" parent="globals/DF_RollingFieldApp" pc="268435726" symbol="getInitialView"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="78" parent="globals/DF_RollingFieldApp" pc="268435755" symbol="getInitialView"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="79" parent="globals/DF_RollingFieldApp" pc="268435779" symbol="getInitialView"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="81" parent="globals/DF_RollingFieldApp" pc="268435808" symbol="getInitialView"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="82" parent="globals/DF_RollingFieldApp" pc="268435832" symbol="getInitialView"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="84" parent="globals/DF_RollingFieldApp" pc="268435861" symbol="getInitialView"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="85" parent="globals/DF_RollingFieldApp" pc="268435885" symbol="getInitialView"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="89" parent="globals/DF_RollingFieldApp" pc="268435914" symbol="getInitialView"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="90" parent="globals/DF_RollingFieldApp" pc="268435924" symbol="getInitialView"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="95" parent="globals/DF_RollingFieldApp" pc="268435934" symbol="getInitialView"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="4" lineNum="99" parent="globals/DF_RollingFieldApp" pc="268435977" symbol="readPropertyKeyInt"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="4" lineNum="102" parent="globals/DF_RollingFieldApp" pc="268435981" symbol="readPropertyKeyInt"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="4" lineNum="105" parent="globals/DF_RollingFieldApp" pc="268436008" symbol="readPropertyKeyInt"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="4" lineNum="107" parent="globals/DF_RollingFieldApp" pc="268436033" symbol="readPropertyKeyInt"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="4" lineNum="109" parent="globals/DF_RollingFieldApp" pc="268436040" symbol="readPropertyKeyInt"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="4" lineNum="113" parent="globals/DF_RollingFieldApp" pc="268436056" symbol="readPropertyKeyInt"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="4" lineNum="116" parent="globals/DF_RollingFieldApp" pc="268436063" symbol="readPropertyKeyInt"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="5" lineNum="26" parent="globals/DF_RollingFieldApp" pc="268436066" symbol="initialize"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="5" lineNum="28" parent="globals/DF_RollingFieldApp" pc="268436068" symbol="initialize"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="5" lineNum="30" parent="globals/DF_RollingFieldApp" pc="268436086" symbol="initialize"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="5" lineNum="31" parent="globals/DF_RollingFieldApp" pc="268436133" symbol="initialize"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="5" lineNum="34" parent="globals/DF_RollingFieldApp" pc="268436180" symbol="initialize"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="5" lineNum="36" parent="globals/DF_RollingFieldApp" pc="268436243" symbol="initialize"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="5" lineNum="37" parent="globals/DF_RollingFieldApp" pc="268436290" symbol="initialize"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="5" lineNum="38" parent="globals/DF_RollingFieldApp" pc="268436337" symbol="initialize"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="6" lineNum="47" parent="globals/DF_RollingFieldApp" pc="268436385" symbol="onStop"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldBackground.mc" id="7" lineNum="5" parent="globals/Background" pc="268436388" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldBackground.mc" id="8" lineNum="17" parent="globals/Background" pc="268436407" symbol="setColor"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldBackground.mc" id="8" lineNum="18" parent="globals/Background" pc="268436409" symbol="setColor"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldBackground.mc" id="9" lineNum="9" parent="globals/Background" pc="268436420" symbol="initialize"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldBackground.mc" id="9" lineNum="10" parent="globals/Background" pc="268436424" symbol="initialize"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldBackground.mc" id="9" lineNum="14" parent="globals/Background" pc="268436445" symbol="initialize"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldBackground.mc" id="10" lineNum="21" parent="globals/Background" pc="268436466" symbol="draw"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldBackground.mc" id="10" lineNum="22" parent="globals/Background" pc="268436468" symbol="draw"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldBackground.mc" id="10" lineNum="23" parent="globals/Background" pc="268436493" symbol="draw"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="11" lineNum="7" parent="globals/Rez" pc="268436506" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="12" lineNum="4" parent="globals/DF_RollingFieldView" pc="268436530" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="12" lineNum="10" parent="globals/DF_RollingFieldView" pc="268436548" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="12" lineNum="50" parent="globals/DF_RollingFieldView" pc="268436562" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="178" parent="globals/DF_RollingFieldView" pc="268436577" symbol="compute"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="182" parent="globals/DF_RollingFieldView" pc="268436581" symbol="compute"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="184" parent="globals/DF_RollingFieldView" pc="268436594" symbol="compute"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="187" parent="globals/DF_RollingFieldView" pc="268436624" symbol="compute"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="189" parent="globals/DF_RollingFieldView" pc="268436637" symbol="compute"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="192" parent="globals/DF_RollingFieldView" pc="268436667" symbol="compute"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="194" parent="globals/DF_RollingFieldView" pc="268436680" symbol="compute"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="198" parent="globals/DF_RollingFieldView" pc="268436705" symbol="compute"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="199" parent="globals/DF_RollingFieldView" pc="268436718" symbol="compute"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="201" parent="globals/DF_RollingFieldView" pc="268436774" symbol="compute"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="203" parent="globals/DF_RollingFieldView" pc="268436787" symbol="compute"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="209" parent="globals/DF_RollingFieldView" pc="268436815" symbol="compute"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="210" parent="globals/DF_RollingFieldView" pc="268436867" symbol="compute"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="211" parent="globals/DF_RollingFieldView" pc="268436883" symbol="compute"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="212" parent="globals/DF_RollingFieldView" pc="268436899" symbol="compute"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="215" parent="globals/DF_RollingFieldView" pc="268436909" symbol="compute"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="217" parent="globals/DF_RollingFieldView" pc="268436916" symbol="compute"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="219" parent="globals/DF_RollingFieldView" pc="268436942" symbol="compute"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="221" parent="globals/DF_RollingFieldView" pc="268436953" symbol="compute"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="225" parent="globals/DF_RollingFieldView" pc="268436963" symbol="compute"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="230" parent="globals/DF_RollingFieldView" pc="268436976" symbol="compute"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="232" parent="globals/DF_RollingFieldView" pc="268436987" symbol="compute"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="236" parent="globals/DF_RollingFieldView" pc="268436997" symbol="compute"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="238" parent="globals/DF_RollingFieldView" pc="268437004" symbol="compute"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="242" parent="globals/DF_RollingFieldView" pc="268437026" symbol="compute"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="245" parent="globals/DF_RollingFieldView" pc="268437098" symbol="compute"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="246" parent="globals/DF_RollingFieldView" pc="268437108" symbol="compute"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="248" parent="globals/DF_RollingFieldView" pc="268437118" symbol="compute"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="14" lineNum="251" parent="globals/DF_RollingFieldView" pc="268437121" symbol="TimeFormat"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="14" lineNum="254" parent="globals/DF_RollingFieldView" pc="268437125" symbol="TimeFormat"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="14" lineNum="255" parent="globals/DF_RollingFieldView" pc="268437135" symbol="TimeFormat"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="14" lineNum="257" parent="globals/DF_RollingFieldView" pc="268437135" symbol="TimeFormat"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="14" lineNum="258" parent="globals/DF_RollingFieldView" pc="268437154" symbol="TimeFormat"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="14" lineNum="259" parent="globals/DF_RollingFieldView" pc="268437167" symbol="TimeFormat"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="14" lineNum="260" parent="globals/DF_RollingFieldView" pc="268437186" symbol="TimeFormat"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="14" lineNum="262" parent="globals/DF_RollingFieldView" pc="268437199" symbol="TimeFormat"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="14" lineNum="263" parent="globals/DF_RollingFieldView" pc="268437263" symbol="TimeFormat"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="15" lineNum="120" parent="globals/DF_RollingFieldView" pc="268437266" symbol="Initialize_Loop_Value"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="15" lineNum="122" parent="globals/DF_RollingFieldView" pc="268437270" symbol="Initialize_Loop_Value"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="15" lineNum="124" parent="globals/DF_RollingFieldView" pc="268437285" symbol="Initialize_Loop_Value"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="15" lineNum="125" parent="globals/DF_RollingFieldView" pc="268437304" symbol="Initialize_Loop_Value"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="15" lineNum="127" parent="globals/DF_RollingFieldView" pc="268437336" symbol="Initialize_Loop_Value"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="16" lineNum="130" parent="globals/DF_RollingFieldView" pc="268437339" symbol="onLayout"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="16" lineNum="132" parent="globals/DF_RollingFieldView" pc="268437341" symbol="onLayout"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="16" lineNum="134" parent="globals/DF_RollingFieldView" pc="268437388" symbol="onLayout"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="16" lineNum="135" parent="globals/DF_RollingFieldView" pc="268437423" symbol="onLayout"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="16" lineNum="139" parent="globals/DF_RollingFieldView" pc="268437458" symbol="onLayout"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="16" lineNum="144" parent="globals/DF_RollingFieldView" pc="268437505" symbol="onLayout"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="16" lineNum="145" parent="globals/DF_RollingFieldView" pc="268437535" symbol="onLayout"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="16" lineNum="146" parent="globals/DF_RollingFieldView" pc="268437565" symbol="onLayout"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="16" lineNum="150" parent="globals/DF_RollingFieldView" pc="268437595" symbol="onLayout"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="16" lineNum="151" parent="globals/DF_RollingFieldView" pc="268437620" symbol="onLayout"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="16" lineNum="152" parent="globals/DF_RollingFieldView" pc="268437633" symbol="onLayout"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="16" lineNum="153" parent="globals/DF_RollingFieldView" pc="268437659" symbol="onLayout"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="16" lineNum="154" parent="globals/DF_RollingFieldView" pc="268437682" symbol="onLayout"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="17" lineNum="52" parent="globals/DF_RollingFieldView" pc="268437717" symbol="initialize"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="17" lineNum="54" parent="globals/DF_RollingFieldView" pc="268437721" symbol="initialize"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="17" lineNum="55" parent="globals/DF_RollingFieldView" pc="268437768" symbol="initialize"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="17" lineNum="57" parent="globals/DF_RollingFieldView" pc="268437786" symbol="initialize"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="17" lineNum="59" parent="globals/DF_RollingFieldView" pc="268437833" symbol="initialize"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="17" lineNum="60" parent="globals/DF_RollingFieldView" pc="268437843" symbol="initialize"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="17" lineNum="62" parent="globals/DF_RollingFieldView" pc="268437853" symbol="initialize"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="17" lineNum="63" parent="globals/DF_RollingFieldView" pc="268437866" symbol="initialize"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="17" lineNum="67" parent="globals/DF_RollingFieldView" pc="268437879" symbol="initialize"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="17" lineNum="70" parent="globals/DF_RollingFieldView" pc="268437903" symbol="initialize"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="17" lineNum="72" parent="globals/DF_RollingFieldView" pc="268437913" symbol="initialize"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="17" lineNum="73" parent="globals/DF_RollingFieldView" pc="268437935" symbol="initialize"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="17" lineNum="77" parent="globals/DF_RollingFieldView" pc="268437970" symbol="initialize"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="17" lineNum="96" parent="globals/DF_RollingFieldView" pc="268437983" symbol="initialize"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="17" lineNum="112" parent="globals/DF_RollingFieldView" pc="268438030" symbol="initialize"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="17" lineNum="113" parent="globals/DF_RollingFieldView" pc="268438049" symbol="initialize"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="17" lineNum="114" parent="globals/DF_RollingFieldView" pc="268438068" symbol="initialize"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="17" lineNum="115" parent="globals/DF_RollingFieldView" pc="268438087" symbol="initialize"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="17" lineNum="117" parent="globals/DF_RollingFieldView" pc="268438106" symbol="initialize"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="266" parent="globals/DF_RollingFieldView" pc="268438154" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="268" parent="globals/DF_RollingFieldView" pc="268438158" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="271" parent="globals/DF_RollingFieldView" pc="268438205" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="273" parent="globals/DF_RollingFieldView" pc="268438248" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="275" parent="globals/DF_RollingFieldView" pc="268438272" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="277" parent="globals/DF_RollingFieldView" pc="268438296" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="279" parent="globals/DF_RollingFieldView" pc="268438316" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="280" parent="globals/DF_RollingFieldView" pc="268438333" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="281" parent="globals/DF_RollingFieldView" pc="268438356" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="285" parent="globals/DF_RollingFieldView" pc="268438376" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="286" parent="globals/DF_RollingFieldView" pc="268438393" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="287" parent="globals/DF_RollingFieldView" pc="268438416" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="291" parent="globals/DF_RollingFieldView" pc="268438433" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="293" parent="globals/DF_RollingFieldView" pc="268438464" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="294" parent="globals/DF_RollingFieldView" pc="268438483" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="295" parent="globals/DF_RollingFieldView" pc="268438490" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="297" parent="globals/DF_RollingFieldView" pc="268438497" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="299" parent="globals/DF_RollingFieldView" pc="268438511" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="302" parent="globals/DF_RollingFieldView" pc="268438564" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="303" parent="globals/DF_RollingFieldView" pc="268438583" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="306" parent="globals/DF_RollingFieldView" pc="268438593" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="309" parent="globals/DF_RollingFieldView" pc="268438646" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="310" parent="globals/DF_RollingFieldView" pc="268438665" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="313" parent="globals/DF_RollingFieldView" pc="268438675" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="317" parent="globals/DF_RollingFieldView" pc="268438728" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="319" parent="globals/DF_RollingFieldView" pc="268438760" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="323" parent="globals/DF_RollingFieldView" pc="268438770" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="324" parent="globals/DF_RollingFieldView" pc="268438777" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="325" parent="globals/DF_RollingFieldView" pc="268438784" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="328" parent="globals/DF_RollingFieldView" pc="268438803" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="331" parent="globals/DF_RollingFieldView" pc="268438839" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="334" parent="globals/DF_RollingFieldView" pc="268438892" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="336" parent="globals/DF_RollingFieldView" pc="268438924" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="340" parent="globals/DF_RollingFieldView" pc="268438934" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="341" parent="globals/DF_RollingFieldView" pc="268438941" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="342" parent="globals/DF_RollingFieldView" pc="268438948" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="345" parent="globals/DF_RollingFieldView" pc="268438967" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="348" parent="globals/DF_RollingFieldView" pc="268439003" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="351" parent="globals/DF_RollingFieldView" pc="268439056" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="352" parent="globals/DF_RollingFieldView" pc="268439075" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="362" parent="globals/DF_RollingFieldView" pc="268439097" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="364" parent="globals/DF_RollingFieldView" pc="268439123" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="392" parent="globals/DF_RollingFieldView" pc="268439127" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="394" parent="globals/DF_RollingFieldView" pc="268439147" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="396" parent="globals/DF_RollingFieldView" pc="268439183" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="397" parent="globals/DF_RollingFieldView" pc="268439209" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="398" parent="globals/DF_RollingFieldView" pc="268439228" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="399" parent="globals/DF_RollingFieldView" pc="268439278" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="400" parent="globals/DF_RollingFieldView" pc="268439346" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="401" parent="globals/DF_RollingFieldView" pc="268439394" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="403" parent="globals/DF_RollingFieldView" pc="268439466" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="409" parent="globals/DF_RollingFieldView" pc="268439602" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="410" parent="globals/DF_RollingFieldView" pc="268439631" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="414" parent="globals/DF_RollingFieldView" pc="268439650" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="415" parent="globals/DF_RollingFieldView" pc="268439675" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="417" parent="globals/DF_RollingFieldView" pc="268439778" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="418" parent="globals/DF_RollingFieldView" pc="268439810" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="420" parent="globals/DF_RollingFieldView" pc="268439842" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="421" parent="globals/DF_RollingFieldView" pc="268439865" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="423" parent="globals/DF_RollingFieldView" pc="268439899" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="425" parent="globals/DF_RollingFieldView" pc="268439925" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="427" parent="globals/DF_RollingFieldView" pc="268439945" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="428" parent="globals/DF_RollingFieldView" pc="268439993" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="430" parent="globals/DF_RollingFieldView" pc="268440043" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="431" parent="globals/DF_RollingFieldView" pc="268440093" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="433" parent="globals/DF_RollingFieldView" pc="268440109" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="434" parent="globals/DF_RollingFieldView" pc="268440141" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="437" parent="globals/DF_RollingFieldView" pc="268440173" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="438" parent="globals/DF_RollingFieldView" pc="268440199" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="439" parent="globals/DF_RollingFieldView" pc="268440222" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="441" parent="globals/DF_RollingFieldView" pc="268440256" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="445" parent="globals/DF_RollingFieldView" pc="268440270" symbol="onUpdate"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="19" lineNum="30" parent="globals/Rez/Layouts" pc="268440291" symbol="MainLayout"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="19" lineNum="31" parent="globals/Rez/Layouts" pc="268440303" symbol="MainLayout"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="19" lineNum="33" parent="globals/Rez/Layouts" pc="268440331" symbol="MainLayout"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="19" lineNum="35" parent="globals/Rez/Layouts" pc="268440391" symbol="MainLayout"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="19" lineNum="37" parent="globals/Rez/Layouts" pc="268440451" symbol="MainLayout"/>
-<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="19" lineNum="39" parent="globals/Rez/Layouts" pc="268440511" symbol="MainLayout"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="1" lineNum="23" parent="globals/DF_RollingFieldApp" pc="268435460" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="2" lineNum="48" parent="globals/DF_RollingFieldApp" pc="268435479" symbol="onStart"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="58" parent="globals/DF_RollingFieldApp" pc="268435482" symbol="getInitialView"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="61" parent="globals/DF_RollingFieldApp" pc="268435486" symbol="getInitialView"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="62" parent="globals/DF_RollingFieldApp" pc="268435518" symbol="getInitialView"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="64" parent="globals/DF_RollingFieldApp" pc="268435543" symbol="getInitialView"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="68" parent="globals/DF_RollingFieldApp" pc="268435551" symbol="getInitialView"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="69" parent="globals/DF_RollingFieldApp" pc="268435559" symbol="getInitialView"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="71" parent="globals/DF_RollingFieldApp" pc="268435567" symbol="getInitialView"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="73" parent="globals/DF_RollingFieldApp" pc="268435591" symbol="getInitialView"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="74" parent="globals/DF_RollingFieldApp" pc="268435597" symbol="getInitialView"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="78" parent="globals/DF_RollingFieldApp" pc="268435620" symbol="getInitialView"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="79" parent="globals/DF_RollingFieldApp" pc="268435644" symbol="getInitialView"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="81" parent="globals/DF_RollingFieldApp" pc="268435673" symbol="getInitialView"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="82" parent="globals/DF_RollingFieldApp" pc="268435697" symbol="getInitialView"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="84" parent="globals/DF_RollingFieldApp" pc="268435726" symbol="getInitialView"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="85" parent="globals/DF_RollingFieldApp" pc="268435750" symbol="getInitialView"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="87" parent="globals/DF_RollingFieldApp" pc="268435779" symbol="getInitialView"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="88" parent="globals/DF_RollingFieldApp" pc="268435803" symbol="getInitialView"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="90" parent="globals/DF_RollingFieldApp" pc="268435832" symbol="getInitialView"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="91" parent="globals/DF_RollingFieldApp" pc="268435856" symbol="getInitialView"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="95" parent="globals/DF_RollingFieldApp" pc="268435885" symbol="getInitialView"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="96" parent="globals/DF_RollingFieldApp" pc="268435895" symbol="getInitialView"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="3" lineNum="101" parent="globals/DF_RollingFieldApp" pc="268435905" symbol="getInitialView"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="4" lineNum="105" parent="globals/DF_RollingFieldApp" pc="268435948" symbol="readPropertyKeyInt"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="4" lineNum="108" parent="globals/DF_RollingFieldApp" pc="268435952" symbol="readPropertyKeyInt"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="4" lineNum="111" parent="globals/DF_RollingFieldApp" pc="268435979" symbol="readPropertyKeyInt"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="4" lineNum="113" parent="globals/DF_RollingFieldApp" pc="268436004" symbol="readPropertyKeyInt"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="4" lineNum="115" parent="globals/DF_RollingFieldApp" pc="268436011" symbol="readPropertyKeyInt"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="4" lineNum="119" parent="globals/DF_RollingFieldApp" pc="268436027" symbol="readPropertyKeyInt"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="4" lineNum="122" parent="globals/DF_RollingFieldApp" pc="268436034" symbol="readPropertyKeyInt"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="5" lineNum="29" parent="globals/DF_RollingFieldApp" pc="268436037" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="5" lineNum="31" parent="globals/DF_RollingFieldApp" pc="268436039" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="5" lineNum="33" parent="globals/DF_RollingFieldApp" pc="268436057" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="5" lineNum="34" parent="globals/DF_RollingFieldApp" pc="268436104" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="5" lineNum="36" parent="globals/DF_RollingFieldApp" pc="268436136" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="5" lineNum="37" parent="globals/DF_RollingFieldApp" pc="268436183" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="5" lineNum="42" parent="globals/DF_RollingFieldApp" pc="268436230" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="5" lineNum="43" parent="globals/DF_RollingFieldApp" pc="268436277" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="5" lineNum="44" parent="globals/DF_RollingFieldApp" pc="268436324" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldApp.mc" id="6" lineNum="53" parent="globals/DF_RollingFieldApp" pc="268436372" symbol="onStop"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldBackground.mc" id="7" lineNum="5" parent="globals/Background" pc="268436375" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldBackground.mc" id="8" lineNum="17" parent="globals/Background" pc="268436394" symbol="setColor"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldBackground.mc" id="8" lineNum="18" parent="globals/Background" pc="268436396" symbol="setColor"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldBackground.mc" id="9" lineNum="9" parent="globals/Background" pc="268436407" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldBackground.mc" id="9" lineNum="10" parent="globals/Background" pc="268436411" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldBackground.mc" id="9" lineNum="14" parent="globals/Background" pc="268436432" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldBackground.mc" id="10" lineNum="21" parent="globals/Background" pc="268436453" symbol="draw"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldBackground.mc" id="10" lineNum="22" parent="globals/Background" pc="268436455" symbol="draw"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldBackground.mc" id="10" lineNum="23" parent="globals/Background" pc="268436480" symbol="draw"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\bin\\gen\\006-B2544-00\\source\\Rez.mcgen" id="11" lineNum="7" parent="globals/Rez" pc="268436493" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="12" lineNum="4" parent="globals/DF_RollingFieldView" pc="268436517" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="12" lineNum="8" parent="globals/DF_RollingFieldView" pc="268436535" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="12" lineNum="9" parent="globals/DF_RollingFieldView" pc="268436549" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="12" lineNum="13" parent="globals/DF_RollingFieldView" pc="268436563" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="12" lineNum="56" parent="globals/DF_RollingFieldView" pc="268436577" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="203" parent="globals/DF_RollingFieldView" pc="268436592" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="207" parent="globals/DF_RollingFieldView" pc="268436596" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="209" parent="globals/DF_RollingFieldView" pc="268436609" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="212" parent="globals/DF_RollingFieldView" pc="268436639" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="214" parent="globals/DF_RollingFieldView" pc="268436652" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="217" parent="globals/DF_RollingFieldView" pc="268436682" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="219" parent="globals/DF_RollingFieldView" pc="268436695" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="223" parent="globals/DF_RollingFieldView" pc="268436720" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="224" parent="globals/DF_RollingFieldView" pc="268436730" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="226" parent="globals/DF_RollingFieldView" pc="268436743" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="227" parent="globals/DF_RollingFieldView" pc="268436753" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="230" parent="globals/DF_RollingFieldView" pc="268436778" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="233" parent="globals/DF_RollingFieldView" pc="268436798" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="234" parent="globals/DF_RollingFieldView" pc="268436810" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="249" parent="globals/DF_RollingFieldView" pc="268436829" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="250" parent="globals/DF_RollingFieldView" pc="268436881" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="251" parent="globals/DF_RollingFieldView" pc="268436897" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="252" parent="globals/DF_RollingFieldView" pc="268436913" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="255" parent="globals/DF_RollingFieldView" pc="268436923" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="257" parent="globals/DF_RollingFieldView" pc="268436930" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="259" parent="globals/DF_RollingFieldView" pc="268436956" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="261" parent="globals/DF_RollingFieldView" pc="268436967" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="265" parent="globals/DF_RollingFieldView" pc="268436977" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="270" parent="globals/DF_RollingFieldView" pc="268436990" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="272" parent="globals/DF_RollingFieldView" pc="268437001" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="276" parent="globals/DF_RollingFieldView" pc="268437011" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="278" parent="globals/DF_RollingFieldView" pc="268437018" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="282" parent="globals/DF_RollingFieldView" pc="268437040" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="285" parent="globals/DF_RollingFieldView" pc="268437112" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="286" parent="globals/DF_RollingFieldView" pc="268437122" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="13" lineNum="288" parent="globals/DF_RollingFieldView" pc="268437132" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="14" lineNum="292" parent="globals/DF_RollingFieldView" pc="268437135" symbol="Initialize_Rolling_Loop"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="14" lineNum="294" parent="globals/DF_RollingFieldView" pc="268437139" symbol="Initialize_Rolling_Loop"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="14" lineNum="295" parent="globals/DF_RollingFieldView" pc="268437152" symbol="Initialize_Rolling_Loop"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="14" lineNum="296" parent="globals/DF_RollingFieldView" pc="268437166" symbol="Initialize_Rolling_Loop"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="14" lineNum="298" parent="globals/DF_RollingFieldView" pc="268437196" symbol="Initialize_Rolling_Loop"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="14" lineNum="300" parent="globals/DF_RollingFieldView" pc="268437212" symbol="Initialize_Rolling_Loop"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="15" lineNum="327" parent="globals/DF_RollingFieldView" pc="268437263" symbol="TimeFormat"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="15" lineNum="330" parent="globals/DF_RollingFieldView" pc="268437267" symbol="TimeFormat"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="15" lineNum="331" parent="globals/DF_RollingFieldView" pc="268437277" symbol="TimeFormat"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="15" lineNum="333" parent="globals/DF_RollingFieldView" pc="268437277" symbol="TimeFormat"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="15" lineNum="334" parent="globals/DF_RollingFieldView" pc="268437296" symbol="TimeFormat"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="15" lineNum="335" parent="globals/DF_RollingFieldView" pc="268437309" symbol="TimeFormat"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="15" lineNum="336" parent="globals/DF_RollingFieldView" pc="268437328" symbol="TimeFormat"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="15" lineNum="338" parent="globals/DF_RollingFieldView" pc="268437341" symbol="TimeFormat"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="15" lineNum="339" parent="globals/DF_RollingFieldView" pc="268437405" symbol="TimeFormat"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="16" lineNum="155" parent="globals/DF_RollingFieldView" pc="268437408" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="16" lineNum="157" parent="globals/DF_RollingFieldView" pc="268437410" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="16" lineNum="159" parent="globals/DF_RollingFieldView" pc="268437457" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="16" lineNum="160" parent="globals/DF_RollingFieldView" pc="268437492" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="16" lineNum="164" parent="globals/DF_RollingFieldView" pc="268437527" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="16" lineNum="169" parent="globals/DF_RollingFieldView" pc="268437574" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="16" lineNum="170" parent="globals/DF_RollingFieldView" pc="268437604" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="16" lineNum="171" parent="globals/DF_RollingFieldView" pc="268437634" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="16" lineNum="175" parent="globals/DF_RollingFieldView" pc="268437664" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="16" lineNum="176" parent="globals/DF_RollingFieldView" pc="268437689" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="16" lineNum="177" parent="globals/DF_RollingFieldView" pc="268437702" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="16" lineNum="178" parent="globals/DF_RollingFieldView" pc="268437728" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="16" lineNum="179" parent="globals/DF_RollingFieldView" pc="268437751" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="17" lineNum="305" parent="globals/DF_RollingFieldView" pc="268437786" symbol="Initialize_Rolling_Loop_Value"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="17" lineNum="309" parent="globals/DF_RollingFieldView" pc="268437790" symbol="Initialize_Rolling_Loop_Value"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="17" lineNum="312" parent="globals/DF_RollingFieldView" pc="268437843" symbol="Initialize_Rolling_Loop_Value"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="17" lineNum="314" parent="globals/DF_RollingFieldView" pc="268437855" symbol="Initialize_Rolling_Loop_Value"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="17" lineNum="318" parent="globals/DF_RollingFieldView" pc="268437868" symbol="Initialize_Rolling_Loop_Value"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="17" lineNum="320" parent="globals/DF_RollingFieldView" pc="268437883" symbol="Initialize_Rolling_Loop_Value"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="17" lineNum="323" parent="globals/DF_RollingFieldView" pc="268437916" symbol="Initialize_Rolling_Loop_Value"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="525" parent="globals/DF_RollingFieldView" pc="268437919" symbol="readPropertyKeyInt"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="527" parent="globals/DF_RollingFieldView" pc="268437923" symbol="readPropertyKeyInt"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="528" parent="globals/DF_RollingFieldView" pc="268437950" symbol="readPropertyKeyInt"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="530" parent="globals/DF_RollingFieldView" pc="268437975" symbol="readPropertyKeyInt"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="532" parent="globals/DF_RollingFieldView" pc="268437982" symbol="readPropertyKeyInt"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="536" parent="globals/DF_RollingFieldView" pc="268437998" symbol="readPropertyKeyInt"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="18" lineNum="539" parent="globals/DF_RollingFieldView" pc="268438005" symbol="readPropertyKeyInt"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="19" lineNum="58" parent="globals/DF_RollingFieldView" pc="268438008" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="19" lineNum="60" parent="globals/DF_RollingFieldView" pc="268438010" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="19" lineNum="61" parent="globals/DF_RollingFieldView" pc="268438057" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="19" lineNum="66" parent="globals/DF_RollingFieldView" pc="268438075" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="19" lineNum="67" parent="globals/DF_RollingFieldView" pc="268438128" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="19" lineNum="68" parent="globals/DF_RollingFieldView" pc="268438181" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="19" lineNum="69" parent="globals/DF_RollingFieldView" pc="268438234" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="19" lineNum="70" parent="globals/DF_RollingFieldView" pc="268438287" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="19" lineNum="72" parent="globals/DF_RollingFieldView" pc="268438340" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="19" lineNum="73" parent="globals/DF_RollingFieldView" pc="268438375" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="19" lineNum="74" parent="globals/DF_RollingFieldView" pc="268438410" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="19" lineNum="75" parent="globals/DF_RollingFieldView" pc="268438445" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="19" lineNum="76" parent="globals/DF_RollingFieldView" pc="268438480" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="19" lineNum="78" parent="globals/DF_RollingFieldView" pc="268438515" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="19" lineNum="121" parent="globals/DF_RollingFieldView" pc="268438527" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="19" lineNum="137" parent="globals/DF_RollingFieldView" pc="268438574" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="19" lineNum="138" parent="globals/DF_RollingFieldView" pc="268438593" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="19" lineNum="139" parent="globals/DF_RollingFieldView" pc="268438612" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="19" lineNum="140" parent="globals/DF_RollingFieldView" pc="268438631" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="19" lineNum="142" parent="globals/DF_RollingFieldView" pc="268438650" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="342" parent="globals/DF_RollingFieldView" pc="268438698" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="347" parent="globals/DF_RollingFieldView" pc="268438702" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="349" parent="globals/DF_RollingFieldView" pc="268438745" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="351" parent="globals/DF_RollingFieldView" pc="268438769" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="353" parent="globals/DF_RollingFieldView" pc="268438793" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="355" parent="globals/DF_RollingFieldView" pc="268438813" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="356" parent="globals/DF_RollingFieldView" pc="268438830" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="357" parent="globals/DF_RollingFieldView" pc="268438853" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="361" parent="globals/DF_RollingFieldView" pc="268438873" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="362" parent="globals/DF_RollingFieldView" pc="268438890" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="363" parent="globals/DF_RollingFieldView" pc="268438913" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="368" parent="globals/DF_RollingFieldView" pc="268438930" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="370" parent="globals/DF_RollingFieldView" pc="268438970" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="371" parent="globals/DF_RollingFieldView" pc="268438989" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="372" parent="globals/DF_RollingFieldView" pc="268438996" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="374" parent="globals/DF_RollingFieldView" pc="268439003" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="376" parent="globals/DF_RollingFieldView" pc="268439017" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="379" parent="globals/DF_RollingFieldView" pc="268439070" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="380" parent="globals/DF_RollingFieldView" pc="268439089" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="383" parent="globals/DF_RollingFieldView" pc="268439099" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="386" parent="globals/DF_RollingFieldView" pc="268439152" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="387" parent="globals/DF_RollingFieldView" pc="268439171" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="390" parent="globals/DF_RollingFieldView" pc="268439181" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="394" parent="globals/DF_RollingFieldView" pc="268439234" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="396" parent="globals/DF_RollingFieldView" pc="268439266" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="400" parent="globals/DF_RollingFieldView" pc="268439276" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="401" parent="globals/DF_RollingFieldView" pc="268439283" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="402" parent="globals/DF_RollingFieldView" pc="268439290" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="405" parent="globals/DF_RollingFieldView" pc="268439309" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="408" parent="globals/DF_RollingFieldView" pc="268439345" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="411" parent="globals/DF_RollingFieldView" pc="268439398" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="413" parent="globals/DF_RollingFieldView" pc="268439430" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="417" parent="globals/DF_RollingFieldView" pc="268439440" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="418" parent="globals/DF_RollingFieldView" pc="268439447" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="419" parent="globals/DF_RollingFieldView" pc="268439454" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="422" parent="globals/DF_RollingFieldView" pc="268439473" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="425" parent="globals/DF_RollingFieldView" pc="268439509" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="428" parent="globals/DF_RollingFieldView" pc="268439562" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="429" parent="globals/DF_RollingFieldView" pc="268439581" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="439" parent="globals/DF_RollingFieldView" pc="268439603" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="441" parent="globals/DF_RollingFieldView" pc="268439629" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="469" parent="globals/DF_RollingFieldView" pc="268439633" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="471" parent="globals/DF_RollingFieldView" pc="268439653" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="474" parent="globals/DF_RollingFieldView" pc="268439689" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="480" parent="globals/DF_RollingFieldView" pc="268439708" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="487" parent="globals/DF_RollingFieldView" pc="268439844" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="491" parent="globals/DF_RollingFieldView" pc="268439863" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="492" parent="globals/DF_RollingFieldView" pc="268439888" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="497" parent="globals/DF_RollingFieldView" pc="268439991" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="498" parent="globals/DF_RollingFieldView" pc="268440014" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="500" parent="globals/DF_RollingFieldView" pc="268440048" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="502" parent="globals/DF_RollingFieldView" pc="268440074" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="507" parent="globals/DF_RollingFieldView" pc="268440094" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="508" parent="globals/DF_RollingFieldView" pc="268440144" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="514" parent="globals/DF_RollingFieldView" pc="268440160" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="515" parent="globals/DF_RollingFieldView" pc="268440186" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="516" parent="globals/DF_RollingFieldView" pc="268440209" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="518" parent="globals/DF_RollingFieldView" pc="268440243" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\source\\DF_RollingFieldView.mc" id="20" lineNum="522" parent="globals/DF_RollingFieldView" pc="268440257" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\bin\\gen\\006-B2544-00\\source\\Rez.mcgen" id="21" lineNum="30" parent="globals/Rez/Layouts" pc="268440278" symbol="MainLayout"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\bin\\gen\\006-B2544-00\\source\\Rez.mcgen" id="21" lineNum="31" parent="globals/Rez/Layouts" pc="268440290" symbol="MainLayout"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\bin\\gen\\006-B2544-00\\source\\Rez.mcgen" id="21" lineNum="33" parent="globals/Rez/Layouts" pc="268440318" symbol="MainLayout"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\bin\\gen\\006-B2544-00\\source\\Rez.mcgen" id="21" lineNum="35" parent="globals/Rez/Layouts" pc="268440378" symbol="MainLayout"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\bin\\gen\\006-B2544-00\\source\\Rez.mcgen" id="21" lineNum="37" parent="globals/Rez/Layouts" pc="268440438" symbol="MainLayout"/>
+<entry filename="C:\\Users\\admin\\OneDrive - kyndryl\\Patrick_Renard_Private_Box\\VisualStudioCode\\data\\Garmin-CIQ\\DF_RollingField\\bin\\gen\\006-B2544-00\\source\\Rez.mcgen" id="21" lineNum="39" parent="globals/Rez/Layouts" pc="268440498" symbol="MainLayout"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
-<entry field="true" id="20" symbol="Label_Field"/>
+<entry field="true" id="23" symbol="Label_Field"/>
 <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
-<entry field="true" id="36" symbol="Value_Field"/>
+<entry field="true" id="43" symbol="Value_Field"/>
 <entry id="7" module="true" symbol="globals/Rez/Menus"/>
-<entry field="true" id="8389425" object="true" symbol="Device"/>
-<entry id="41" method="true" symbol="MainLayout"/>
-<entry field="true" id="54" symbol="AppVersion"/>
-<entry field="true" id="57" symbol="Field_DistanceToDestination_Duration_Title"/>
-<entry field="true" id="66" symbol="Field_Timer_Label_Title"/>
+<entry field="true" id="76" symbol="Field_Timer_Label"/>
+<entry id="48" method="true" symbol="MainLayout"/>
+<entry field="true" id="9" symbol="AppVersion"/>
+<entry field="true" id="63" symbol="Field_DistanceToDestination_Duration_Title"/>
+<entry field="true" id="77" symbol="Field_Timer_Label_Title"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-<entry field="true" id="25" symbol="Loop_Size"/>
-<entry field="true" id="53" symbol="AppName"/>
+<entry field="true" id="27" symbol="Loop_Size"/>
+<entry field="true" id="60" symbol="AppName"/>
 <entry id="8" module="true" symbol="globals/Rez/Strings"/>
+<entry id="22" method="true" symbol="Initialize_Rolling_Loop_Value"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
-<entry field="true" id="33" symbol="Unit_Field_Font"/>
+<entry field="true" id="40" symbol="Unit_Field_Font"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
-<entry field="true" id="31" symbol="Timer_Value"/>
+<entry field="true" id="38" symbol="Timer_Value"/>
 <entry id="2" module="true" symbol="globals/Rez"/>
-<entry field="true" id="58" symbol="Field_DistanceToDestination_Label_Title"/>
-<entry field="true" id="24" symbol="Loop_Index"/>
+<entry field="true" id="65" symbol="Field_DistanceToDestination_Label_Title"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
-<entry field="true" id="60" symbol="Field_Distance_Label_Title"/>
+<entry field="true" id="68" symbol="Field_Distance_Label_Title"/>
+<entry field="true" id="28" symbol="OldRoutingIsActive"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="8389348" symbol="font"/>
-<entry field="true" id="55" symbol="App_Version_Title"/>
-<entry field="true" id="62" symbol="Field_TimeOfDay_Label_Title"/>
-<entry id="13" module="true" symbol="Menus"/>
+<entry field="true" id="61" symbol="App_Version_Title"/>
+<entry field="true" id="71" symbol="Field_TimeOfDay_Label_Title"/>
+<entry id="15" module="true" symbol="Menus"/>
 <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
-<entry field="true" id="52" symbol="Font_Value_10"/>
-<entry field="true" id="51" symbol="Font_Value_09"/>
-<entry field="true" id="50" symbol="Font_Value_08"/>
-<entry field="true" id="49" symbol="Font_Value_07"/>
-<entry field="true" id="48" symbol="Font_Value_06"/>
-<entry field="true" id="47" symbol="Font_Value_05"/>
-<entry field="true" id="46" symbol="Font_Value_04"/>
-<entry field="true" id="45" symbol="Font_Value_03"/>
-<entry field="true" id="44" symbol="Font_Value_02"/>
-<entry field="true" id="43" symbol="Font_Value_01"/>
-<entry field="true" id="42" symbol="Font_Value_00"/>
+<entry field="true" id="59" symbol="Font_Value_10"/>
+<entry field="true" id="58" symbol="Font_Value_09"/>
+<entry field="true" id="57" symbol="Font_Value_08"/>
+<entry field="true" id="56" symbol="Font_Value_07"/>
+<entry field="true" id="55" symbol="Font_Value_06"/>
+<entry field="true" id="54" symbol="Font_Value_05"/>
+<entry field="true" id="53" symbol="Font_Value_04"/>
+<entry field="true" id="52" symbol="Font_Value_03"/>
+<entry field="true" id="51" symbol="Font_Value_02"/>
+<entry field="true" id="50" symbol="Font_Value_01"/>
+<entry field="true" id="49" symbol="Font_Value_00"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
-<entry field="true" id="64" symbol="Field_Time_Label_Title"/>
+<entry field="true" id="74" symbol="Field_Time_Label_Title"/>
 <entry field="true" id="8389063" symbol="identifier"/>
+<entry field="true" id="12" symbol="deviceFamily"/>
 <entry id="8389137" method="true" symbol="compute"/>
-<entry field="true" id="30" symbol="Time_Value"/>
+<entry field="true" id="37" symbol="Time_Value"/>
 <entry id="8389131" method="true" symbol="setColor"/>
 <entry id="5" module="true" symbol="globals/Rez/JsonData"/>
-<entry field="true" id="39" symbol="Value_Field_y"/>
-<entry field="true" id="38" symbol="Value_Field_x"/>
-<entry field="true" id="17" symbol="Distance_Value"/>
+<entry field="true" id="46" symbol="Value_Field_y"/>
+<entry field="true" id="45" symbol="Value_Field_x"/>
+<entry field="true" id="19" symbol="Distance_Value"/>
 <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-<entry field="true" id="32" symbol="Unit_Field"/>
-<entry field="true" id="35" symbol="Unit_Field_y"/>
-<entry field="true" id="34" symbol="Unit_Field_x"/>
-<entry field="true" id="18" symbol="Font"/>
-<entry field="true" id="59" symbol="Field_Distance_Duration_Title"/>
-<entry field="true" id="28" symbol="TimeOfDay_Meridiem_Value"/>
-<entry field="true" id="23" symbol="Label_Field_y"/>
-<entry field="true" id="22" symbol="Label_Field_x"/>
+<entry field="true" id="64" symbol="Field_DistanceToDestination_Label"/>
+<entry field="true" id="39" symbol="Unit_Field"/>
+<entry field="true" id="42" symbol="Unit_Field_y"/>
+<entry field="true" id="41" symbol="Unit_Field_x"/>
+<entry field="true" id="20" symbol="Font"/>
+<entry field="true" id="66" symbol="Field_Distance_Duration_Title"/>
+<entry field="true" id="35" symbol="TimeOfDay_Meridiem_Value"/>
+<entry field="true" id="31" symbol="Rolling_Loop_Index"/>
+<entry field="true" id="26" symbol="Label_Field_y"/>
+<entry field="true" id="25" symbol="Label_Field_x"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
-<entry field="true" id="26" symbol="Loop_Value"/>
 <entry id="8388640" module="true" symbol="Lang"/>
-<entry field="true" id="29" symbol="TimeOfDay_Value"/>
+<entry field="true" id="36" symbol="TimeOfDay_Value"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
 <entry field="true" id="8389130" symbol="mColor"/>
 <entry id="8389068" method="true" symbol="draw"/>
-<entry field="true" id="40" symbol="LauncherIcon"/>
+<entry field="true" id="47" symbol="LauncherIcon"/>
 <entry id="8388610" symbol="statics"/>
-<entry id="11" method="true" symbol="readPropertyKeyInt"/>
-<entry field="true" id="16" symbol="DistanceToDestination_Value"/>
-<entry field="true" id="14" symbol="CustomFont_Value"/>
+<entry id="13" method="true" symbol="readPropertyKeyInt"/>
+<entry field="true" id="67" symbol="Field_Distance_Label"/>
+<entry field="true" id="73" symbol="Field_Time_Label"/>
+<entry field="true" id="18" symbol="DistanceToDestination_Value"/>
+<entry field="true" id="16" symbol="CustomFont_Value"/>
 <entry id="8389350" module="true" symbol="globals"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry id="8390146" module="true" object="true" symbol="Background"/>
-<entry field="true" id="65" symbol="Field_Timer_Duration_Title"/>
-<entry field="true" id="61" symbol="Field_TimeOfDay_Duration_Title"/>
+<entry field="true" id="75" symbol="Field_Timer_Duration_Title"/>
+<entry field="true" id="69" symbol="Field_TimeOfDay_Duration_Title"/>
 <entry id="8388702" method="true" symbol="initialize"/>
 <entry id="8389279" method="true" symbol="onStart"/>
-<entry field="true" id="56" symbol="DF_Title_Title"/>
-<entry id="10" object="true" symbol="DF_RollingFieldView"/>
-<entry id="27" method="true" symbol="TimeFormat"/>
+<entry field="true" id="62" symbol="DF_Title_Title"/>
+<entry id="11" object="true" symbol="DF_RollingFieldView"/>
+<entry field="true" id="33" symbol="RoutingIsActive"/>
+<entry id="34" method="true" symbol="TimeFormat"/>
+<entry field="true" id="29" symbol="RF_Duration_Value"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8389281" method="true" symbol="onStop"/>
-<entry field="true" id="63" symbol="Field_Time_Duration_Title"/>
-<entry field="true" id="21" symbol="Label_Field_Font"/>
-<entry id="12" module="true" symbol="Layouts"/>
-<entry field="true" id="15" symbol="Device_Type"/>
-<entry field="true" id="37" symbol="Value_Field_Font"/>
+<entry field="true" id="30" symbol="RF_Label_Value"/>
+<entry field="true" id="72" symbol="Field_Time_Duration_Title"/>
+<entry field="true" id="24" symbol="Label_Field_Font"/>
+<entry id="14" module="true" symbol="Layouts"/>
+<entry field="true" id="17" symbol="Device_Type"/>
+<entry field="true" id="44" symbol="Value_Field_Font"/>
+<entry id="21" method="true" symbol="Initialize_Rolling_Loop"/>
 <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
-<entry field="true" id="67" symbol="Support_distanceToDestination"/>
-<entry id="9" object="true" symbol="DF_RollingFieldApp"/>
-<entry id="19" method="true" symbol="Initialize_Loop_Value"/>
+<entry field="true" id="78" symbol="Support_distanceToDestination"/>
+<entry field="true" id="70" symbol="Field_TimeOfDay_Label"/>
+<entry id="10" object="true" symbol="DF_RollingFieldApp"/>
+<entry field="true" id="32" symbol="Rolling_Loop_Value"/>
 </symbolTable>
 <localVars>
-<entry endPc="268435976" name="AppVersion" stackId="1" startPc="268435486"/>
-<entry endPc="268435976" name="Args" stackId="2" startPc="268435486"/>
-<entry endPc="268435976" name="Label_Value" stackId="3" startPc="268435486"/>
-<entry endPc="268435976" name="Duration_Value" stackId="4" startPc="268435486"/>
-<entry endPc="268435648" name="i" stackId="5" startPc="268435620"/>
-<entry arg="true" endPc="268436065" name="key" stackId="1" startPc="268435977"/>
-<entry arg="true" endPc="268436065" name="thisDefault" stackId="2" startPc="268435977"/>
-<entry endPc="268436065" name="value" stackId="3" startPc="268435981"/>
-<entry arg="true" endPc="268436419" name="color" stackId="1" startPc="268436407"/>
-<entry endPc="268436464" name="dictionary" stackId="1" startPc="268436424"/>
-<entry arg="true" endPc="268436505" name="dc" stackId="1" startPc="268436466"/>
-<entry arg="true" endPc="268437120" name="info" stackId="1" startPc="268436577"/>
-<entry endPc="268437120" name="time" stackId="2" startPc="268436581"/>
-<entry endPc="268437120" name="hour" stackId="3" startPc="268436581"/>
-<entry endPc="268437120" name="min" stackId="4" startPc="268436581"/>
-<entry endPc="268437120" name="sec" stackId="5" startPc="268436581"/>
-<entry endPc="268437120" name="meridiemTxt" stackId="6" startPc="268436581"/>
-<entry endPc="268437120" name="timeStr" stackId="7" startPc="268436581"/>
-<entry arg="true" endPc="268437265" name="milliseconds" stackId="1" startPc="268437121"/>
-<entry endPc="268437265" name="Seconds" stackId="2" startPc="268437125"/>
-<entry endPc="268437265" name="Rest" stackId="3" startPc="268437125"/>
-<entry endPc="268437265" name="Hour" stackId="4" startPc="268437125"/>
-<entry endPc="268437265" name="Minute" stackId="5" startPc="268437125"/>
-<entry endPc="268437265" name="Second" stackId="6" startPc="268437125"/>
-<entry endPc="268437265" name="Return_Value" stackId="7" startPc="268437125"/>
-<entry arg="true" endPc="268437338" name="Value" stackId="1" startPc="268437266"/>
-<entry arg="true" endPc="268437338" name="Duration" stackId="2" startPc="268437266"/>
-<entry endPc="268437335" name="i" stackId="3" startPc="268437285"/>
-<entry arg="true" endPc="268437716" name="dc" stackId="1" startPc="268437339"/>
-<entry arg="true" endPc="268438153" name="Args" stackId="1" startPc="268437717"/>
-<entry endPc="268438152" name="Label_Value" stackId="2" startPc="268437721"/>
-<entry endPc="268438152" name="Duration_Value" stackId="3" startPc="268437721"/>
-<entry endPc="268437969" name="i" stackId="4" startPc="268437903"/>
-<entry arg="true" endPc="268440290" name="dc" stackId="1" startPc="268438154"/>
-<entry endPc="268440289" name="Label" stackId="2" startPc="268438158"/>
-<entry endPc="268440289" name="Unit" stackId="3" startPc="268438158"/>
-<entry endPc="268440289" name="Field" stackId="4" startPc="268438158"/>
-<entry endPc="268440289" name="Value_Picked" stackId="5" startPc="268438158"/>
-<entry endPc="268440289" name="Value_Unit_Picked" stackId="6" startPc="268438158"/>
-<entry endPc="268438802" name="km_mi_conv" stackId="7" startPc="268438770"/>
-<entry endPc="268438966" name="km_mi_conv" stackId="8" startPc="268438934"/>
-<entry endPc="268440289" name="Value_Pattern" stackId="9" startPc="268438158"/>
-<entry endPc="268439649" name="i" stackId="10" startPc="268439183"/>
-<entry arg="true" endPc="268440557" name="dc" stackId="1" startPc="268440291"/>
-<entry endPc="268440557" name="rez_cmp_local_custom_drawable_13498600586379005419" stackId="2" startPc="268440303"/>
-<entry endPc="268440557" name="rez_cmp_local_text_Label" stackId="3" startPc="268440303"/>
-<entry endPc="268440557" name="rez_cmp_local_text_Value" stackId="4" startPc="268440303"/>
-<entry endPc="268440557" name="rez_cmp_local_text_Unit" stackId="5" startPc="268440303"/>
+<entry endPc="268435947" name="Args" stackId="1" startPc="268435486"/>
+<entry endPc="268435947" name="Label_Value" stackId="2" startPc="268435486"/>
+<entry endPc="268435947" name="Duration_Value" stackId="3" startPc="268435486"/>
+<entry endPc="268435619" name="i" stackId="4" startPc="268435591"/>
+<entry arg="true" endPc="268436036" name="key" stackId="1" startPc="268435948"/>
+<entry arg="true" endPc="268436036" name="thisDefault" stackId="2" startPc="268435948"/>
+<entry endPc="268436036" name="value" stackId="3" startPc="268435952"/>
+<entry arg="true" endPc="268436406" name="color" stackId="1" startPc="268436394"/>
+<entry endPc="268436451" name="dictionary" stackId="1" startPc="268436411"/>
+<entry arg="true" endPc="268436492" name="dc" stackId="1" startPc="268436453"/>
+<entry arg="true" endPc="268437134" name="info" stackId="1" startPc="268436592"/>
+<entry endPc="268437134" name="time" stackId="2" startPc="268436596"/>
+<entry endPc="268437134" name="hour" stackId="3" startPc="268436596"/>
+<entry endPc="268437134" name="min" stackId="4" startPc="268436596"/>
+<entry endPc="268437134" name="sec" stackId="5" startPc="268436596"/>
+<entry endPc="268437134" name="meridiemTxt" stackId="6" startPc="268436596"/>
+<entry endPc="268437134" name="timeStr" stackId="7" startPc="268436596"/>
+<entry endPc="268437261" name="i" stackId="1" startPc="268437196"/>
+<entry arg="true" endPc="268437407" name="milliseconds" stackId="1" startPc="268437263"/>
+<entry endPc="268437407" name="Seconds" stackId="2" startPc="268437267"/>
+<entry endPc="268437407" name="Rest" stackId="3" startPc="268437267"/>
+<entry endPc="268437407" name="Hour" stackId="4" startPc="268437267"/>
+<entry endPc="268437407" name="Minute" stackId="5" startPc="268437267"/>
+<entry endPc="268437407" name="Second" stackId="6" startPc="268437267"/>
+<entry endPc="268437407" name="Return_Value" stackId="7" startPc="268437267"/>
+<entry arg="true" endPc="268437785" name="dc" stackId="1" startPc="268437408"/>
+<entry arg="true" endPc="268437918" name="Value" stackId="1" startPc="268437786"/>
+<entry arg="true" endPc="268437918" name="Duration" stackId="2" startPc="268437786"/>
+<entry endPc="268437915" name="i" stackId="3" startPc="268437883"/>
+<entry arg="true" endPc="268438007" name="key" stackId="1" startPc="268437919"/>
+<entry arg="true" endPc="268438007" name="thisDefault" stackId="2" startPc="268437919"/>
+<entry endPc="268438007" name="value" stackId="3" startPc="268437923"/>
+<entry arg="true" endPc="268438697" name="Args" stackId="1" startPc="268438008"/>
+<entry arg="true" endPc="268440277" name="dc" stackId="1" startPc="268438698"/>
+<entry endPc="268440276" name="Label" stackId="2" startPc="268438702"/>
+<entry endPc="268440276" name="Unit" stackId="3" startPc="268438702"/>
+<entry endPc="268440276" name="Field" stackId="4" startPc="268438702"/>
+<entry endPc="268440276" name="Value_Picked" stackId="5" startPc="268438702"/>
+<entry endPc="268440276" name="Value_Unit_Picked" stackId="6" startPc="268438702"/>
+<entry endPc="268439308" name="km_mi_conv" stackId="7" startPc="268439276"/>
+<entry endPc="268439472" name="km_mi_conv" stackId="8" startPc="268439440"/>
+<entry endPc="268440276" name="Value_Pattern" stackId="9" startPc="268438702"/>
+<entry endPc="268439862" name="i" stackId="10" startPc="268439689"/>
+<entry arg="true" endPc="268440544" name="dc" stackId="1" startPc="268440278"/>
+<entry endPc="268440544" name="rez_cmp_local_custom_drawable_18571162314815456991" stackId="2" startPc="268440290"/>
+<entry endPc="268440544" name="rez_cmp_local_text_Label" stackId="3" startPc="268440290"/>
+<entry endPc="268440544" name="rez_cmp_local_text_Value" stackId="4" startPc="268440290"/>
+<entry endPc="268440544" name="rez_cmp_local_text_Unit" stackId="5" startPc="268440290"/>
 </localVars>
 <annotations>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
 <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="Font_Value_10"/>
-<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppVersion"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Field_Distance_Duration_Title"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Field_TimeOfDay_Label"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Field_TimeOfDay_Label_Title"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Field_Timer_Label"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="App_Version_Title"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Field_DistanceToDestination_Duration_Title"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Field_DistanceToDestination_Label_Title"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Field_Distance_Label_Title"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="deviceFamily"/>
 <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="Font_Value_00"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Field_TimeOfDay_Duration_Title"/>
 <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="Font_Value_04"/>
 <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="Font_Value_03"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Field_Time_Label"/>
 <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="Font_Value_02"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Support_distanceToDestination"/>
 <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="Font_Value_01"/>
@@ -376,25 +397,26 @@
 <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="Font_Value_06"/>
 <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="Font_Value_05"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="DF_Title_Title"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Field_Distance_Label"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Field_Timer_Label_Title"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Field_Time_Duration_Title"/>
 <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="Font_Value_09"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Field_Time_Label_Title"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Field_Timer_Duration_Title"/>
-<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Device"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Field_DistanceToDestination_Label"/>
 </annotations>
 <dataEntryOffsetMappings>
 <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
-<dataEntry label="globals/DF_RollingFieldApp" offset="158" parentId="globals" symbolId="DF_RollingFieldApp" type="class"/>
-<dataEntry label="globals/Background" offset="237" parentId="globals" symbolId="Background" type="class"/>
-<dataEntry label="globals/Rez" offset="308" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry label="globals/DF_RollingFieldView" offset="387" parentId="globals" symbolId="DF_RollingFieldView" type="class"/>
-<dataEntry label="globals/Rez/Drawables" offset="666" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry label="globals/Rez/Layouts" offset="705" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry label="globals/Rez/Menus" offset="744" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry label="globals/Rez/Fonts" offset="775" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry label="globals/Rez/Strings" offset="894" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry label="globals/Rez/JsonData" offset="1053" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry label="globals/DF_RollingFieldApp" offset="177" parentId="globals" symbolId="DF_RollingFieldApp" type="class"/>
+<dataEntry label="globals/Background" offset="264" parentId="globals" symbolId="Background" type="class"/>
+<dataEntry label="globals/Rez" offset="335" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/DF_RollingFieldView" offset="414" parentId="globals" symbolId="DF_RollingFieldView" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="741" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="780" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="819" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="850" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="969" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="1160" parentId="Rez" symbolId="JsonData" type="module"/>
 </dataEntryOffsetMappings>
 <functions>
 <functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="DF_RollingFieldApp" startPc="268435460">
@@ -404,63 +426,71 @@
 <param id="state"/>
 <documentation><![CDATA[<div class="description"> onStart() is called on application start up<br/></div>]]></documentation>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435976" name="getInitialView" parent="DF_RollingFieldApp" startPc="268435482">
+<functionEntry accessMode="public" endPc="268435947" name="getInitialView" parent="DF_RollingFieldApp" startPc="268435482">
 <documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436065" name="readPropertyKeyInt" parent="DF_RollingFieldApp" startPc="268435977">
+<functionEntry accessMode="public" endPc="268436036" name="readPropertyKeyInt" parent="DF_RollingFieldApp" startPc="268435948">
 <param id="key"/>
 <param id="thisDefault"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436384" name="initialize" parent="DF_RollingFieldApp" startPc="268436066">
+<functionEntry accessMode="public" endPc="268436371" name="initialize" parent="DF_RollingFieldApp" startPc="268436037">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436387" name="onStop" parent="DF_RollingFieldApp" startPc="268436385">
+<functionEntry accessMode="public" endPc="268436374" name="onStop" parent="DF_RollingFieldApp" startPc="268436372">
 <param id="state"/>
 <documentation><![CDATA[<div class="description"> onStop() is called when your application is exiting<br/></div>]]></documentation>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436406" name="&lt;init&gt;" parent="Background" startPc="268436388">
+<functionEntry accessMode="public" endPc="268436393" name="&lt;init&gt;" parent="Background" startPc="268436375">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436419" name="setColor" parent="Background" startPc="268436407">
+<functionEntry accessMode="public" endPc="268436406" name="setColor" parent="Background" startPc="268436394">
 <param id="color"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436465" name="initialize" parent="Background" startPc="268436420">
+<functionEntry accessMode="public" endPc="268436452" name="initialize" parent="Background" startPc="268436407">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436505" name="draw" parent="Background" startPc="268436466">
+<functionEntry accessMode="public" endPc="268436492" name="draw" parent="Background" startPc="268436453">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436529" name="&lt;init&gt;" parent="Rez" startPc="268436506">
+<functionEntry accessMode="public" endPc="268436516" name="&lt;init&gt;" parent="Rez" startPc="268436493">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436576" name="&lt;init&gt;" parent="DF_RollingFieldView" startPc="268436530">
+<functionEntry accessMode="public" endPc="268436591" name="&lt;init&gt;" parent="DF_RollingFieldView" startPc="268436517">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437120" name="compute" parent="DF_RollingFieldView" startPc="268436577">
+<functionEntry accessMode="public" endPc="268437134" name="compute" parent="DF_RollingFieldView" startPc="268436592">
 <param id="info"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437265" name="TimeFormat" parent="DF_RollingFieldView" startPc="268437121">
+<functionEntry accessMode="public" endPc="268437262" name="Initialize_Rolling_Loop" parent="DF_RollingFieldView" startPc="268437135">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437407" name="TimeFormat" parent="DF_RollingFieldView" startPc="268437263">
 <param id="milliseconds"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437338" name="Initialize_Loop_Value" parent="DF_RollingFieldView" startPc="268437266">
+<functionEntry accessMode="public" endPc="268437785" name="onLayout" parent="DF_RollingFieldView" startPc="268437408">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437918" name="Initialize_Rolling_Loop_Value" parent="DF_RollingFieldView" startPc="268437786">
 <param id="Value"/>
 <param id="Duration"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437716" name="onLayout" parent="DF_RollingFieldView" startPc="268437339">
-<param id="dc"/>
+<functionEntry accessMode="public" endPc="268438007" name="readPropertyKeyInt" parent="DF_RollingFieldView" startPc="268437919">
+<param id="key"/>
+<param id="thisDefault"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438153" name="initialize" parent="DF_RollingFieldView" startPc="268437717">
+<functionEntry accessMode="public" endPc="268438697" name="initialize" parent="DF_RollingFieldView" startPc="268438008">
 <param id="Args"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440290" name="onUpdate" parent="DF_RollingFieldView" startPc="268438154">
+<functionEntry accessMode="public" endPc="268440277" name="onUpdate" parent="DF_RollingFieldView" startPc="268438698">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
@@ -482,7 +512,7 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440557" name="MainLayout" parent="Layouts" startPc="268440291">
+<functionEntry accessMode="public" endPc="268440544" name="MainLayout" parent="Layouts" startPc="268440278">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
